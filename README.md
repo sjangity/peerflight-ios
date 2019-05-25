@@ -12,11 +12,7 @@ In hindsight, I think peerflight was drawn from the heavy painpoints in my days 
 
 ### Flow Overview
 
-> ![S1](/design/peerflight-screenshot.png) ![S1](/design/peerflight-screenshot3.png)
-
-> ![S1](/design/peerflight-screenshot2.png) ![S1](/design/peerflight-screenshot4.png)
-
-> ![S1](/design/peerflight-screenshot5.png) ![S1](/design/peerflight-screenshot6.png)
+> ![S1](/design/flow.png)
 
 ### Challenges
 
