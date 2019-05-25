@@ -1,0 +1,1918 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1801F54C18D77593001E9AFE /* TCAppDelegateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1801F54B18D77593001E9AFE /* TCAppDelegateTests.m */; };
+		1801F54E18D7781A001E9AFE /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1801F54D18D7781A001E9AFE /* MainStoryboard_iPhone.storyboard */; };
+		1801F55218D77915001E9AFE /* TCTripsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1801F55118D77915001E9AFE /* TCTripsViewController.m */; };
+		1801F55618D7898F001E9AFE /* plane-takeoff-outline.png in Resources */ = {isa = PBXBuildFile; fileRef = 1801F55518D7898F001E9AFE /* plane-takeoff-outline.png */; };
+		1801F55818D78A77001E9AFE /* magnifier-outline.png in Resources */ = {isa = PBXBuildFile; fileRef = 1801F55718D78A77001E9AFE /* magnifier-outline.png */; };
+		1801F55A18D78ABA001E9AFE /* bubble-comment-2-outline.png in Resources */ = {isa = PBXBuildFile; fileRef = 1801F55918D78ABA001E9AFE /* bubble-comment-2-outline.png */; };
+		1801F55C18D78B1A001E9AFE /* user-1-outline.png in Resources */ = {isa = PBXBuildFile; fileRef = 1801F55B18D78B1A001E9AFE /* user-1-outline.png */; };
+		18090E6D18F3712D00FA4C4F /* TCJSONTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18090E6C18F3712D00FA4C4F /* TCJSONTests.m */; };
+		18090E7C18F453CE00FA4C4F /* TCMOTripsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18090E7B18F453CE00FA4C4F /* TCMOTripsTests.m */; };
+		18090E7E18F4555E00FA4C4F /* TCMOPersonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18090E7D18F4555E00FA4C4F /* TCMOPersonTests.m */; };
+		18090EF018F4A47E00FA4C4F /* CompanionProfiles+Management.m in Sources */ = {isa = PBXBuildFile; fileRef = 18090EEF18F4A47E00FA4C4F /* CompanionProfiles+Management.m */; };
+		18090F0E18F4C64F00FA4C4F /* TCProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18090F0D18F4C64F00FA4C4F /* TCProfileViewController.m */; };
+		18090F1118F4D1B500FA4C4F /* TCSelectAirportTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18090F1018F4D1B500FA4C4F /* TCSelectAirportTableViewController.m */; };
+		18090F1B18F59A1800FA4C4F /* TCSelectAirportTableViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18090F1A18F59A1800FA4C4F /* TCSelectAirportTableViewControllerTests.m */; };
+		18090F2218F5EC8100FA4C4F /* TCTripTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18090F2118F5EC8100FA4C4F /* TCTripTableViewCell.m */; };
+		18090F2518F61E2E00FA4C4F /* TCCompanionProfileTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18090F2418F61E2E00FA4C4F /* TCCompanionProfileTableViewController.m */; };
+		18090F2C18F705F900FA4C4F /* TCAddCompanionProfileTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18090F2B18F705F900FA4C4F /* TCAddCompanionProfileTableViewController.m */; };
+		18090F2F18F716AA00FA4C4F /* TCCustomHeaderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18090F2E18F716AA00FA4C4F /* TCCustomHeaderTableViewCell.m */; };
+		180B41C6191DAB23007A8B80 /* user-1-filled.png in Resources */ = {isa = PBXBuildFile; fileRef = 180B41C5191DAB23007A8B80 /* user-1-filled.png */; };
+		180B41C8191DAB4D007A8B80 /* user-2-filled.png in Resources */ = {isa = PBXBuildFile; fileRef = 180B41C7191DAB4D007A8B80 /* user-2-filled.png */; };
+		180B41CA191DAB7E007A8B80 /* bubble-comment-2-filled.png in Resources */ = {isa = PBXBuildFile; fileRef = 180B41C9191DAB7E007A8B80 /* bubble-comment-2-filled.png */; };
+		180B41CC191DABBD007A8B80 /* magnifier-filled.png in Resources */ = {isa = PBXBuildFile; fileRef = 180B41CB191DABBD007A8B80 /* magnifier-filled.png */; };
+		180B41CE191DAC20007A8B80 /* plane-takeoff-filled.png in Resources */ = {isa = PBXBuildFile; fileRef = 180B41CD191DAC20007A8B80 /* plane-takeoff-filled.png */; };
+		181218BC1900453700FC70A4 /* TCSearchResultsViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 181218BB1900453700FC70A4 /* TCSearchResultsViewControllerTests.m */; };
+		181218C3190153B800FC70A4 /* TCUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 181218C2190153B800FC70A4 /* TCUtils.m */; };
+		1833C4A518F96F1700E7B32B /* TCTripsViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1833C4A418F96F1700E7B32B /* TCTripsViewControllerTests.m */; };
+		1833C4AF18F97ADA00E7B32B /* TCBaseViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1833C4AE18F97ADA00E7B32B /* TCBaseViewControllerTests.m */; };
+		1833C4B518FB781700E7B32B /* TCFakeServiceCommunicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1833C4B418FB781700E7B32B /* TCFakeServiceCommunicator.m */; };
+		1833C4B818FB7BD900E7B32B /* TCFakeJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 1833C4B718FB7BD900E7B32B /* TCFakeJSON.m */; };
+		1833C4BB18FC640C00E7B32B /* NSManagedObject+TCInternalManagement.m in Sources */ = {isa = PBXBuildFile; fileRef = 1833C4BA18FC640C00E7B32B /* NSManagedObject+TCInternalManagement.m */; };
+		1833C4BE18FC73A300E7B32B /* TCCompanionProfileTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1833C4BD18FC73A300E7B32B /* TCCompanionProfileTableViewCell.m */; };
+		1833C4EA18FDE09100E7B32B /* TCMOCompanionProfilesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1833C4E918FDE09100E7B32B /* TCMOCompanionProfilesTests.m */; };
+		1833C52618FEBFC000E7B32B /* TCEditProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1833C52518FEBFC000E7B32B /* TCEditProfileViewController.m */; };
+		1833C52918FECA0500E7B32B /* TCFAQTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1833C52818FECA0500E7B32B /* TCFAQTableViewController.m */; };
+		1833C52C18FECA1500E7B32B /* TCEditSettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1833C52B18FECA1500E7B32B /* TCEditSettingsTableViewController.m */; };
+		1833C53318FF0CEC00E7B32B /* TCTripDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1833C53218FF0CEC00E7B32B /* TCTripDetailViewController.m */; };
+		1839E671190C22FC00024F9D /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 1839E670190C22FC00024F9D /* Reachability.m */; };
+		1839E674190C3C7F00024F9D /* TCReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1839E673190C3C7F00024F9D /* TCReachabilityManager.m */; };
+		1839E67B190D70A900024F9D /* TCSignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1839E67A190D70A900024F9D /* TCSignupViewController.m */; };
+		1839E67D190EB23200024F9D /* TCSignupViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1839E67C190EB23200024F9D /* TCSignupViewControllerTests.m */; };
+		183A9D6019076E3500749DAA /* TravelCompanionNew.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 183A9D5E19076E3500749DAA /* TravelCompanionNew.xcdatamodeld */; };
+		1849742219088F8000BCBCDC /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1849742019088F8000BCBCDC /* AddressBook.framework */; };
+		1849742319088F8000BCBCDC /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1849742119088F8000BCBCDC /* AddressBookUI.framework */; };
+		18497427190895B000BCBCDC /* TCEmailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18497426190895B000BCBCDC /* TCEmailTableViewController.m */; };
+		184974291908972E00BCBCDC /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 184974281908972E00BCBCDC /* MessageUI.framework */; };
+		1850F70F18DB4E0C005469B5 /* TCNewTripViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1850F70E18DB4E0C005469B5 /* TCNewTripViewController.m */; };
+		1850F71D18DB57E0005469B5 /* TCLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1850F71C18DB57E0005469B5 /* TCLoginViewController.m */; };
+		185C284E1901567500E3EE56 /* TCSeedDataGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 185C284D1901567500E3EE56 /* TCSeedDataGenerator.m */; };
+		185C285019017E6600E3EE56 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185C284F19017E6600E3EE56 /* CoreLocation.framework */; };
+		185C28521901B07400E3EE56 /* setting-gears-new-outline.png in Resources */ = {isa = PBXBuildFile; fileRef = 185C28511901B07400E3EE56 /* setting-gears-new-outline.png */; };
+		185C28621902A44800E3EE56 /* TCProfileOtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185C28611902A44800E3EE56 /* TCProfileOtherViewController.m */; };
+		185C28651902AB2500E3EE56 /* TCProfileOtherSubTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185C28641902AB2500E3EE56 /* TCProfileOtherSubTableViewController.m */; };
+		186354DA19060B6400145DD9 /* TCProfileSubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186354D919060B6400145DD9 /* TCProfileSubViewController.m */; };
+		186354DD1906156800145DD9 /* TCProfileSubContainerStaticTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186354DC1906156800145DD9 /* TCProfileSubContainerStaticTableViewController.m */; };
+		186354E01906157C00145DD9 /* TCProfileSubContainerDynamicTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186354DF1906157C00145DD9 /* TCProfileSubContainerDynamicTableViewController.m */; };
+		186354E319068FE900145DD9 /* TCCustomUserProfilesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 186354E219068FE900145DD9 /* TCCustomUserProfilesTableViewCell.m */; };
+		186354E91906ACB500145DD9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186354E81906ACB500145DD9 /* MapKit.framework */; };
+		186354ED1906E4F400145DD9 /* TCNewMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186354EC1906E4F400145DD9 /* TCNewMessageViewController.m */; };
+		186354F01906E68400145DD9 /* TCNewMessageContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186354EF1906E68400145DD9 /* TCNewMessageContentViewController.m */; };
+		186354F31906EC4C00145DD9 /* TCCustomMessageProfileTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 186354F21906EC4C00145DD9 /* TCCustomMessageProfileTableViewCell.m */; };
+		186354FD190716D400145DD9 /* user-2-outline.png in Resources */ = {isa = PBXBuildFile; fileRef = 186354FC190716D400145DD9 /* user-2-outline.png */; };
+		186355041907235F00145DD9 /* TCCustomProfilePrivateTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 186355031907235F00145DD9 /* TCCustomProfilePrivateTableViewCell.m */; };
+		186C74BD19217DA1008E2AFC /* TCUploadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 186C74BC19217DA1008E2AFC /* TCUploadTests.m */; };
+		1872E2CB190836F800BA5CE0 /* CompanionProfiles.m in Sources */ = {isa = PBXBuildFile; fileRef = 1872E2CA190836F800BA5CE0 /* CompanionProfiles.m */; };
+		1872E2CE190836F900BA5CE0 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 1872E2CD190836F900BA5CE0 /* Person.m */; };
+		1872E2D1190836F900BA5CE0 /* Messages.m in Sources */ = {isa = PBXBuildFile; fileRef = 1872E2D0190836F900BA5CE0 /* Messages.m */; };
+		1872E2D4190836F900BA5CE0 /* Photos.m in Sources */ = {isa = PBXBuildFile; fileRef = 1872E2D3190836F900BA5CE0 /* Photos.m */; };
+		1872E2D7190836F900BA5CE0 /* Trips.m in Sources */ = {isa = PBXBuildFile; fileRef = 1872E2D6190836F900BA5CE0 /* Trips.m */; };
+		1872E2DA190836F900BA5CE0 /* Airports.m in Sources */ = {isa = PBXBuildFile; fileRef = 1872E2D9190836F900BA5CE0 /* Airports.m */; };
+		1876DE4B190803A5006CFB9A /* travelcompanionutility.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 1876DE4A19080385006CFB9A /* travelcompanionutility.sqlite */; };
+		1888A28119322CB400EFEC42 /* alert-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1888A28019322CB400EFEC42 /* alert-1.png */; };
+		18907998190FD27A00CB98D0 /* TCProfileViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18907997190FD27A00CB98D0 /* TCProfileViewControllerTests.m */; };
+		189079A0191131BC00CB98D0 /* NSManagedObject+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 1890799F191131BC00CB98D0 /* NSManagedObject+JSON.m */; };
+		18A6D9A618FFF9C70005A66C /* TCSearchTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A6D9A518FFF9C70005A66C /* TCSearchTableViewController.m */; };
+		18A6D9A9190009AD0005A66C /* TCSearchContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A6D9A8190009AD0005A66C /* TCSearchContentViewController.m */; };
+		18A6D9AC19000F940005A66C /* TCSearchResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A6D9AB19000F940005A66C /* TCSearchResultsViewController.m */; };
+		18A6D9B219003B250005A66C /* TCEmptySearchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A6D9B119003B250005A66C /* TCEmptySearchView.m */; };
+		18A99A801932D40E00169042 /* information-filled.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A99A7E1932D40E00169042 /* information-filled.png */; };
+		18A99A811932D40E00169042 /* information-outline.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A99A7F1932D40E00169042 /* information-outline.png */; };
+		18A99A831933753E00169042 /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A99A821933753E00169042 /* Images-2.xcassets */; };
+		18A99A861933919600169042 /* iTunesArtWork.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A99A841933919600169042 /* iTunesArtWork.png */; };
+		18A99A871933919600169042 /* iTunesArtWork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A99A851933919600169042 /* iTunesArtWork@2x.png */; };
+		18ACBB9318E70D920098776A /* TCCompanionProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 18ACBB9218E70D920098776A /* TCCompanionProfile.m */; };
+		18ACBB9618E70E720098776A /* TCLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 18ACBB9518E70E720098776A /* TCLocation.m */; };
+		18ACBBAC18E711780098776A /* Photos+Management.m in Sources */ = {isa = PBXBuildFile; fileRef = 18ACBBAB18E711780098776A /* Photos+Management.m */; };
+		18ACBBAF18E7118A0098776A /* Person+Management.m in Sources */ = {isa = PBXBuildFile; fileRef = 18ACBBAE18E7118A0098776A /* Person+Management.m */; };
+		18ACBBB218E7119B0098776A /* Trips+Management.m in Sources */ = {isa = PBXBuildFile; fileRef = 18ACBBB118E7119B0098776A /* Trips+Management.m */; };
+		18ACBBB518E711B00098776A /* Airports+Management.m in Sources */ = {isa = PBXBuildFile; fileRef = 18ACBBB418E711B00098776A /* Airports+Management.m */; };
+		18ACBBB818E711C10098776A /* Messages+Management.m in Sources */ = {isa = PBXBuildFile; fileRef = 18ACBBB718E711C10098776A /* Messages+Management.m */; };
+		18ACBBBE18E71AF60098776A /* TCCoreDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18ACBBBD18E71AF60098776A /* TCCoreDataController.m */; };
+		18ACBBC018E71C280098776A /* TCCoreDataControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18ACBBBF18E71C280098776A /* TCCoreDataControllerTests.m */; };
+		18AFFC0A19212E3A0028986D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18AFFC0719212E3A0028986D /* Default-568h@2x.png */; };
+		18AFFC0B19212E3A0028986D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 18AFFC0819212E3A0028986D /* Default.png */; };
+		18AFFC0C19212E3A0028986D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18AFFC0919212E3A0028986D /* Default@2x.png */; };
+		18AFFC3919214D7B0028986D /* iphone-app-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 18AFFC3119214D7B0028986D /* iphone-app-icon.png */; };
+		18AFFC3A19214D7B0028986D /* iphone-app-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18AFFC3219214D7B0028986D /* iphone-app-icon@2x.png */; };
+		18AFFC3D19214D7B0028986D /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 18AFFC3519214D7B0028986D /* settings.png */; };
+		18AFFC3E19214D7B0028986D /* settings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18AFFC3619214D7B0028986D /* settings@2x.png */; };
+		18AFFC3F19214D7B0028986D /* spotlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 18AFFC3719214D7B0028986D /* spotlight.png */; };
+		18AFFC4019214D7B0028986D /* spotlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18AFFC3819214D7B0028986D /* spotlight@2x.png */; };
+		18B7447319056E8300B62B98 /* TCMessageDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B7447219056E8300B62B98 /* TCMessageDetailViewController.m */; };
+		18B836A8190ACD2300A2579E /* TCOtherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B836A7190ACD2300A2579E /* TCOtherTests.m */; };
+		18BCC9B718D39D4700241C54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BCC9B618D39D4700241C54 /* Foundation.framework */; };
+		18BCC9B918D39D4700241C54 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BCC9B818D39D4700241C54 /* CoreGraphics.framework */; };
+		18BCC9BB18D39D4700241C54 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BCC9BA18D39D4700241C54 /* UIKit.framework */; };
+		18BCC9BD18D39D4700241C54 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BCC9BC18D39D4700241C54 /* CoreData.framework */; };
+		18BCC9C318D39D4700241C54 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18BCC9C118D39D4700241C54 /* InfoPlist.strings */; };
+		18BCC9C518D39D4700241C54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BCC9C418D39D4700241C54 /* main.m */; };
+		18BCC9C918D39D4700241C54 /* TCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BCC9C818D39D4700241C54 /* TCAppDelegate.m */; };
+		18BCC9D518D39D4700241C54 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BCC9D418D39D4700241C54 /* XCTest.framework */; };
+		18BCC9D618D39D4700241C54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BCC9B618D39D4700241C54 /* Foundation.framework */; };
+		18BCC9D718D39D4700241C54 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BCC9BA18D39D4700241C54 /* UIKit.framework */; };
+		18BCC9D818D39D4700241C54 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BCC9BC18D39D4700241C54 /* CoreData.framework */; };
+		18BCC9E018D39D4700241C54 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18BCC9DE18D39D4700241C54 /* InfoPlist.strings */; };
+		18BD766F1908BBF20055465F /* TCProfileCompanionProfileTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BD766E1908BBF20055465F /* TCProfileCompanionProfileTableViewController.m */; };
+		18BD767319098F260055465F /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BD767219098F260055465F /* MBProgressHUD.m */; };
+		18C0666518D39DB400930A93 /* TCLoginViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C0666418D39DB400930A93 /* TCLoginViewControllerTests.m */; };
+		18CB921C1905BE0600DBA11D /* TCCustomMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CB921B1905BE0600DBA11D /* TCCustomMessageViewController.m */; };
+		18CB921F1905BF0300DBA11D /* TCCustomMessageContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CB921E1905BF0300DBA11D /* TCCustomMessageContentViewController.m */; };
+		18CB92221905C48A00DBA11D /* TCCustomMessagePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CB92211905C48A00DBA11D /* TCCustomMessagePageViewController.m */; };
+		18E1C6A01925350400725652 /* plane-landing.png in Resources */ = {isa = PBXBuildFile; fileRef = 18E1C69F1925350400725652 /* plane-landing.png */; };
+		18E1C6A2192535ED00725652 /* bubble-smiley-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 18E1C6A1192535ED00725652 /* bubble-smiley-3.png */; };
+		18E1C6A41925366A00725652 /* smartphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 18E1C6A31925366A00725652 /* smartphone.png */; };
+		18E1C6A61925372600725652 /* cloud-refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 18E1C6A51925372600725652 /* cloud-refresh.png */; };
+		18E1C6A8192537B800725652 /* check-shield.png in Resources */ = {isa = PBXBuildFile; fileRef = 18E1C6A7192537B800725652 /* check-shield.png */; };
+		18E1C6AA19253BBB00725652 /* comodo_secure_100x85_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 18E1C6A919253BBB00725652 /* comodo_secure_100x85_white.png */; };
+		18E1C6AD19258D1B00725652 /* NSDictionary+JsonObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1C6AC19258D1B00725652 /* NSDictionary+JsonObject.m */; };
+		18F40836191453390004A057 /* setting-gears-new-filled.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F40835191453390004A057 /* setting-gears-new-filled.png */; };
+		18F7115819228F9100011CA6 /* NSArray+Reverse.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F7115719228F9100011CA6 /* NSArray+Reverse.m */; };
+		18FA172B1927D050005A946F /* TCPrivacyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FA172A1927D050005A946F /* TCPrivacyViewController.m */; };
+		18FA172E1927D073005A946F /* TCTermsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FA172D1927D073005A946F /* TCTermsViewController.m */; };
+		18FA173119283E21005A946F /* TCFAQGuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FA173019283E21005A946F /* TCFAQGuideViewController.m */; };
+		18FA1734192875DB005A946F /* TCFAQPopupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FA1733192875DB005A946F /* TCFAQPopupViewController.m */; };
+		18FA17381928EDE0005A946F /* SpringTransitioningDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FA17371928EDE0005A946F /* SpringTransitioningDelegate.m */; };
+		18FA173C1928EF7B005A946F /* PresentingSpringAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FA173B1928EF7B005A946F /* PresentingSpringAnimator.m */; };
+		18FA17411928F0A3005A946F /* DynamicDismissalAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FA173E1928F0A3005A946F /* DynamicDismissalAnimator.m */; };
+		18FA17421928F0A3005A946F /* LinearDismissalAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FA17401928F0A3005A946F /* LinearDismissalAnimator.m */; };
+		18FA17441928F1C2005A946F /* delete-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 18FA17431928F1C2005A946F /* delete-1.png */; };
+		18FA17461928F913005A946F /* delete-1-filled.png in Resources */ = {isa = PBXBuildFile; fileRef = 18FA17451928F913005A946F /* delete-1-filled.png */; };
+		18FA174B192AED7B005A946F /* BlurViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FA174A192AED7B005A946F /* BlurViewController.m */; };
+		18FB3FDA19035AEC00E32F0B /* TCMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FB3FD919035AEC00E32F0B /* TCMessageViewController.m */; };
+		18FB3FDC1903620200E32F0B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18FB3FDB1903620200E32F0B /* QuartzCore.framework */; };
+		18FB3FF2190426A400E32F0B /* TCMOMessagesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FB3FF1190426A400E32F0B /* TCMOMessagesTests.m */; };
+		18FB3FF71904A1B300E32F0B /* TCMessageListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FB3FF61904A1B300E32F0B /* TCMessageListViewController.m */; };
+		18FB3FFD1904EB1F00E32F0B /* TCMessageSentContentTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FB3FFC1904EB1F00E32F0B /* TCMessageSentContentTableViewController.m */; };
+		18FB40001904EB2D00E32F0B /* TCMessageReceivedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FB3FFF1904EB2D00E32F0B /* TCMessageReceivedTableViewController.m */; };
+		18FF1CAA18EB2A6900A7BB67 /* TCSyncManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FF1CA918EB2A6900A7BB67 /* TCSyncManager.m */; };
+		18FF1CAD18EB2AB500A7BB67 /* TCServiceCommunicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FF1CAC18EB2AB500A7BB67 /* TCServiceCommunicator.m */; };
+		18FF1CAF18EB2B2200A7BB67 /* TCDownloadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FF1CAE18EB2B2200A7BB67 /* TCDownloadTests.m */; };
+		18FF1CB118EB2CC300A7BB67 /* TCServiceCommunicatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FF1CB018EB2CC300A7BB67 /* TCServiceCommunicatorTests.m */; };
+		18FF1CB418EB3BC000A7BB67 /* TCServiceCommunicatorOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FF1CB318EB3BC000A7BB67 /* TCServiceCommunicatorOperation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18BCC9D918D39D4700241C54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18BCC9AB18D39D4700241C54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18BCC9B218D39D4700241C54;
+			remoteInfo = travelcompanion;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1801F54B18D77593001E9AFE /* TCAppDelegateTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TCAppDelegateTests.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		1801F54D18D7781A001E9AFE /* MainStoryboard_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		1801F55018D77915001E9AFE /* TCTripsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TCTripsViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1801F55118D77915001E9AFE /* TCTripsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TCTripsViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		1801F55518D7898F001E9AFE /* plane-takeoff-outline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plane-takeoff-outline.png"; sourceTree = "<group>"; };
+		1801F55718D78A77001E9AFE /* magnifier-outline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "magnifier-outline.png"; sourceTree = "<group>"; };
+		1801F55918D78ABA001E9AFE /* bubble-comment-2-outline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bubble-comment-2-outline.png"; sourceTree = "<group>"; };
+		1801F55B18D78B1A001E9AFE /* user-1-outline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user-1-outline.png"; sourceTree = "<group>"; };
+		18090E6C18F3712D00FA4C4F /* TCJSONTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TCJSONTests.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		18090E7B18F453CE00FA4C4F /* TCMOTripsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TCMOTripsTests.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		18090E7D18F4555E00FA4C4F /* TCMOPersonTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TCMOPersonTests.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		18090EEE18F4A47E00FA4C4F /* CompanionProfiles+Management.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = "CompanionProfiles+Management.h"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		18090EEF18F4A47E00FA4C4F /* CompanionProfiles+Management.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "CompanionProfiles+Management.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		18090F0C18F4C64F00FA4C4F /* TCProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TCProfileViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		18090F0D18F4C64F00FA4C4F /* TCProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TCProfileViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		18090F0F18F4D1B500FA4C4F /* TCSelectAirportTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TCSelectAirportTableViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		18090F1018F4D1B500FA4C4F /* TCSelectAirportTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TCSelectAirportTableViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		18090F1A18F59A1800FA4C4F /* TCSelectAirportTableViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TCSelectAirportTableViewControllerTests.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		18090F2018F5EC8100FA4C4F /* TCTripTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TCTripTableViewCell.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		18090F2118F5EC8100FA4C4F /* TCTripTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TCTripTableViewCell.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		18090F2318F61E2E00FA4C4F /* TCCompanionProfileTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TCCompanionProfileTableViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		18090F2418F61E2E00FA4C4F /* TCCompanionProfileTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TCCompanionProfileTableViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		18090F2A18F705F900FA4C4F /* TCAddCompanionProfileTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TCAddCompanionProfileTableViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		18090F2B18F705F900FA4C4F /* TCAddCompanionProfileTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TCAddCompanionProfileTableViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		18090F2D18F716AA00FA4C4F /* TCCustomHeaderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TCCustomHeaderTableViewCell.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		18090F2E18F716AA00FA4C4F /* TCCustomHeaderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TCCustomHeaderTableViewCell.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		180B41C5191DAB23007A8B80 /* user-1-filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user-1-filled.png"; sourceTree = "<group>"; };
+		180B41C7191DAB4D007A8B80 /* user-2-filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user-2-filled.png"; sourceTree = "<group>"; };
+		180B41C9191DAB7E007A8B80 /* bubble-comment-2-filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bubble-comment-2-filled.png"; sourceTree = "<group>"; };
+		180B41CB191DABBD007A8B80 /* magnifier-filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "magnifier-filled.png"; sourceTree = "<group>"; };
+		180B41CD191DAC20007A8B80 /* plane-takeoff-filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plane-takeoff-filled.png"; sourceTree = "<group>"; };
+		181218BB1900453700FC70A4 /* TCSearchResultsViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TCSearchResultsViewControllerTests.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		181218C1190153B800FC70A4 /* TCUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TCUtils.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		181218C2190153B800FC70A4 /* TCUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TCUtils.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		1833C4A418F96F1700E7B32B /* TCTripsViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TCTripsViewControllerTests.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		1833C4AD18F97ADA00E7B32B /* TCBaseViewControllerTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TCBaseViewControllerTests.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1833C4AE18F97ADA00E7B32B /* TCBaseViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TCBaseViewControllerTests.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		1833C4B318FB781700E7B32B /* TCFakeServiceCommunicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TCFakeServiceCommunicator.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1833C4B418FB781700E7B32B /* TCFakeServiceCommunicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TCFakeServiceCommunicator.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		1833C4B618FB7BD900E7B32B /* TCFakeJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TCFakeJSON.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1833C4B718FB7BD900E7B32B /* TCFakeJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TCFakeJSON.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		1833C4B918FC640C00E7B32B /* NSManagedObject+TCInternalManagement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = "NSManagedObject+TCInternalManagement.h"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1833C4BA18FC640C00E7B32B /* NSManagedObject+TCInternalManagement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "NSManagedObject+TCInternalManagement.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		1833C4BC18FC73A300E7B32B /* TCCompanionProfileTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TCCompanionProfileTableViewCell.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1833C4BD18FC73A300E7B32B /* TCCompanionProfileTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TCCompanionProfileTableViewCell.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		1833C4E918FDE09100E7B32B /* TCMOCompanionProfilesTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TCMOCompanionProfilesTests.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		1833C52418FEBFC000E7B32B /* TCEditProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TCEditProfileViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1833C52518FEBFC000E7B32B /* TCEditProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TCEditProfileViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		1833C52718FECA0500E7B32B /* TCFAQTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TCFAQTableViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1833C52818FECA0500E7B32B /* TCFAQTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TCFAQTableViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		1833C52A18FECA1500E7B32B /* TCEditSettingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TCEditSettingsTableViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1833C52B18FECA1500E7B32B /* TCEditSettingsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TCEditSettingsTableViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		1833C53118FF0CEC00E7B32B /* TCTripDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TCTripDetailViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1833C53218FF0CEC00E7B32B /* TCTripDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TCTripDetailViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		1839E66F190C22FC00024F9D /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		1839E670190C22FC00024F9D /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		1839E672190C3C7F00024F9D /* TCReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TCReachabilityManager.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1839E673190C3C7F00024F9D /* TCReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TCReachabilityManager.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		1839E679190D70A900024F9D /* TCSignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TCSignupViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1839E67A190D70A900024F9D /* TCSignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TCSignupViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		1839E67C190EB23200024F9D /* TCSignupViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TCSignupViewControllerTests.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		183A9D5F19076E3500749DAA /* TravelCompanionNew.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TravelCompanionNew.xcdatamodel; sourceTree = "<group>"; };
+		1849742019088F8000BCBCDC /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		1849742119088F8000BCBCDC /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		18497425190895B000BCBCDC /* TCEmailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TCEmailTableViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		18497426190895B000BCBCDC /* TCEmailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TCEmailTableViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		184974281908972E00BCBCDC /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		1850F70D18DB4E0C005469B5 /* TCNewTripViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TCNewTripViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1850F70E18DB4E0C005469B5 /* TCNewTripViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TCNewTripViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		1850F71B18DB57E0005469B5 /* TCLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TCLoginViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1850F71C18DB57E0005469B5 /* TCLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TCLoginViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		185C284D1901567500E3EE56 /* TCSeedDataGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TCSeedDataGenerator.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		185C284F19017E6600E3EE56 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		185C28511901B07400E3EE56 /* setting-gears-new-outline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "setting-gears-new-outline.png"; sourceTree = "<group>"; };
+		185C28601902A44800E3EE56 /* TCProfileOtherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TCProfileOtherViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		185C28611902A44800E3EE56 /* TCProfileOtherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TCProfileOtherViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		185C28631902AB2500E3EE56 /* TCProfileOtherSubTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TCProfileOtherSubTableViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		185C28641902AB2500E3EE56 /* TCProfileOtherSubTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TCProfileOtherSubTableViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		186354D819060B6400145DD9 /* TCProfileSubViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TCProfileSubViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		186354D919060B6400145DD9 /* TCProfileSubViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TCProfileSubViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		186354DB1906156800145DD9 /* TCProfileSubContainerStaticTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TCProfileSubContainerStaticTableViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		186354DC1906156800145DD9 /* TCProfileSubContainerStaticTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TCProfileSubContainerStaticTableViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		186354DE1906157C00145DD9 /* TCProfileSubContainerDynamicTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TCProfileSubContainerDynamicTableViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		186354DF1906157C00145DD9 /* TCProfileSubContainerDynamicTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TCProfileSubContainerDynamicTableViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		186354E119068FE900145DD9 /* TCCustomUserProfilesTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TCCustomUserProfilesTableViewCell.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		186354E219068FE900145DD9 /* TCCustomUserProfilesTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TCCustomUserProfilesTableViewCell.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		186354E81906ACB500145DD9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		186354EB1906E4F400145DD9 /* TCNewMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TCNewMessageViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		186354EC1906E4F400145DD9 /* TCNewMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TCNewMessageViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		186354EE1906E68400145DD9 /* TCNewMessageContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TCNewMessageContentViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		186354EF1906E68400145DD9 /* TCNewMessageContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TCNewMessageContentViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		186354F11906EC4C00145DD9 /* TCCustomMessageProfileTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TCCustomMessageProfileTableViewCell.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		186354F21906EC4C00145DD9 /* TCCustomMessageProfileTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TCCustomMessageProfileTableViewCell.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		186354FC190716D400145DD9 /* user-2-outline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user-2-outline.png"; sourceTree = "<group>"; };
+		186355021907235F00145DD9 /* TCCustomProfilePrivateTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TCCustomProfilePrivateTableViewCell.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		186355031907235F00145DD9 /* TCCustomProfilePrivateTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TCCustomProfilePrivateTableViewCell.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		186C74BC19217DA1008E2AFC /* TCUploadTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TCUploadTests.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		1872E2C9190836F800BA5CE0 /* CompanionProfiles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = CompanionProfiles.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1872E2CA190836F800BA5CE0 /* CompanionProfiles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = CompanionProfiles.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		1872E2CC190836F900BA5CE0 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = Person.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1872E2CD190836F900BA5CE0 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = Person.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		1872E2CF190836F900BA5CE0 /* Messages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = Messages.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1872E2D0190836F900BA5CE0 /* Messages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = Messages.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		1872E2D2190836F900BA5CE0 /* Photos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = Photos.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1872E2D3190836F900BA5CE0 /* Photos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = Photos.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		1872E2D5190836F900BA5CE0 /* Trips.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = Trips.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1872E2D6190836F900BA5CE0 /* Trips.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = Trips.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		1872E2D8190836F900BA5CE0 /* Airports.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = Airports.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1872E2D9190836F900BA5CE0 /* Airports.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = Airports.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		1876DE4A19080385006CFB9A /* travelcompanionutility.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = travelcompanionutility.sqlite; sourceTree = "<group>"; };
+		1888A28019322CB400EFEC42 /* alert-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alert-1.png"; sourceTree = "<group>"; };
+		18907997190FD27A00CB98D0 /* TCProfileViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TCProfileViewControllerTests.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		1890799E191131BC00CB98D0 /* NSManagedObject+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = "NSManagedObject+JSON.h"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1890799F191131BC00CB98D0 /* NSManagedObject+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "NSManagedObject+JSON.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		18A6D9A418FFF9C70005A66C /* TCSearchTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TCSearchTableViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		18A6D9A518FFF9C70005A66C /* TCSearchTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TCSearchTableViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		18A6D9A7190009AD0005A66C /* TCSearchContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TCSearchContentViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		18A6D9A8190009AD0005A66C /* TCSearchContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TCSearchContentViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		18A6D9AA19000F940005A66C /* TCSearchResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TCSearchResultsViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		18A6D9AB19000F940005A66C /* TCSearchResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TCSearchResultsViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		18A6D9B019003B250005A66C /* TCEmptySearchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TCEmptySearchView.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		18A6D9B119003B250005A66C /* TCEmptySearchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TCEmptySearchView.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		18A99A7E1932D40E00169042 /* information-filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "information-filled.png"; sourceTree = "<group>"; };
+		18A99A7F1932D40E00169042 /* information-outline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "information-outline.png"; sourceTree = "<group>"; };
+		18A99A821933753E00169042 /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-2.xcassets"; sourceTree = "<group>"; };
+		18A99A841933919600169042 /* iTunesArtWork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtWork.png; sourceTree = "<group>"; };
+		18A99A851933919600169042 /* iTunesArtWork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtWork@2x.png"; sourceTree = "<group>"; };
+		18ACBB9118E70D920098776A /* TCCompanionProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TCCompanionProfile.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		18ACBB9218E70D920098776A /* TCCompanionProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TCCompanionProfile.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		18ACBB9418E70E720098776A /* TCLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TCLocation.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		18ACBB9518E70E720098776A /* TCLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TCLocation.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		18ACBBAA18E711780098776A /* Photos+Management.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = "Photos+Management.h"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		18ACBBAB18E711780098776A /* Photos+Management.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "Photos+Management.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		18ACBBAD18E7118A0098776A /* Person+Management.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = "Person+Management.h"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		18ACBBAE18E7118A0098776A /* Person+Management.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "Person+Management.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		18ACBBB018E7119B0098776A /* Trips+Management.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = "Trips+Management.h"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		18ACBBB118E7119B0098776A /* Trips+Management.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "Trips+Management.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		18ACBBB318E711B00098776A /* Airports+Management.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = "Airports+Management.h"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		18ACBBB418E711B00098776A /* Airports+Management.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "Airports+Management.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		18ACBBB618E711C10098776A /* Messages+Management.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = "Messages+Management.h"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		18ACBBB718E711C10098776A /* Messages+Management.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "Messages+Management.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		18ACBBBC18E71AF60098776A /* TCCoreDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TCCoreDataController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		18ACBBBD18E71AF60098776A /* TCCoreDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TCCoreDataController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		18ACBBBF18E71C280098776A /* TCCoreDataControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TCCoreDataControllerTests.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		18AFFC0719212E3A0028986D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		18AFFC0819212E3A0028986D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		18AFFC0919212E3A0028986D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		18AFFC3119214D7B0028986D /* iphone-app-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iphone-app-icon.png"; sourceTree = "<group>"; };
+		18AFFC3219214D7B0028986D /* iphone-app-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iphone-app-icon@2x.png"; sourceTree = "<group>"; };
+		18AFFC3519214D7B0028986D /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		18AFFC3619214D7B0028986D /* settings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settings@2x.png"; sourceTree = "<group>"; };
+		18AFFC3719214D7B0028986D /* spotlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spotlight.png; sourceTree = "<group>"; };
+		18AFFC3819214D7B0028986D /* spotlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spotlight@2x.png"; sourceTree = "<group>"; };
+		18B7447119056E8300B62B98 /* TCMessageDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TCMessageDetailViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		18B7447219056E8300B62B98 /* TCMessageDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TCMessageDetailViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		18B836A7190ACD2300A2579E /* TCOtherTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TCOtherTests.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		18BCC9B318D39D4700241C54 /* Peer Flight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Peer Flight.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18BCC9B618D39D4700241C54 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		18BCC9B818D39D4700241C54 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		18BCC9BA18D39D4700241C54 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		18BCC9BC18D39D4700241C54 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		18BCC9C018D39D4700241C54 /* travelcompanion-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "travelcompanion-Info.plist"; sourceTree = "<group>"; };
+		18BCC9C218D39D4700241C54 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18BCC9C418D39D4700241C54 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = main.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		18BCC9C618D39D4700241C54 /* travelcompanion-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "travelcompanion-Prefix.pch"; sourceTree = "<group>"; };
+		18BCC9C718D39D4700241C54 /* TCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TCAppDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		18BCC9C818D39D4700241C54 /* TCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TCAppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		18BCC9D318D39D4700241C54 /* travelcompanionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = travelcompanionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18BCC9D418D39D4700241C54 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		18BCC9DD18D39D4700241C54 /* travelcompanionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "travelcompanionTests-Info.plist"; sourceTree = "<group>"; };
+		18BCC9DF18D39D4700241C54 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18BD766D1908BBF20055465F /* TCProfileCompanionProfileTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TCProfileCompanionProfileTableViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		18BD766E1908BBF20055465F /* TCProfileCompanionProfileTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TCProfileCompanionProfileTableViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		18BD767119098F260055465F /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		18BD767219098F260055465F /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		18C0666418D39DB400930A93 /* TCLoginViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TCLoginViewControllerTests.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		18CB921A1905BE0600DBA11D /* TCCustomMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TCCustomMessageViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		18CB921B1905BE0600DBA11D /* TCCustomMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TCCustomMessageViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		18CB921D1905BF0300DBA11D /* TCCustomMessageContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TCCustomMessageContentViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		18CB921E1905BF0300DBA11D /* TCCustomMessageContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TCCustomMessageContentViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		18CB92201905C48A00DBA11D /* TCCustomMessagePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TCCustomMessagePageViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		18CB92211905C48A00DBA11D /* TCCustomMessagePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TCCustomMessagePageViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		18E1C69F1925350400725652 /* plane-landing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plane-landing.png"; sourceTree = "<group>"; };
+		18E1C6A1192535ED00725652 /* bubble-smiley-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bubble-smiley-3.png"; sourceTree = "<group>"; };
+		18E1C6A31925366A00725652 /* smartphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smartphone.png; sourceTree = "<group>"; };
+		18E1C6A51925372600725652 /* cloud-refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cloud-refresh.png"; sourceTree = "<group>"; };
+		18E1C6A7192537B800725652 /* check-shield.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "check-shield.png"; sourceTree = "<group>"; };
+		18E1C6A919253BBB00725652 /* comodo_secure_100x85_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = comodo_secure_100x85_white.png; sourceTree = "<group>"; };
+		18E1C6AB19258D1B00725652 /* NSDictionary+JsonObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = "NSDictionary+JsonObject.h"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		18E1C6AC19258D1B00725652 /* NSDictionary+JsonObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "NSDictionary+JsonObject.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		18F40835191453390004A057 /* setting-gears-new-filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "setting-gears-new-filled.png"; sourceTree = "<group>"; };
+		18F7115619228F9100011CA6 /* NSArray+Reverse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = "NSArray+Reverse.h"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		18F7115719228F9100011CA6 /* NSArray+Reverse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "NSArray+Reverse.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		18FA17291927D050005A946F /* TCPrivacyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TCPrivacyViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		18FA172A1927D050005A946F /* TCPrivacyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TCPrivacyViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		18FA172C1927D073005A946F /* TCTermsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TCTermsViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		18FA172D1927D073005A946F /* TCTermsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TCTermsViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		18FA172F19283E21005A946F /* TCFAQGuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TCFAQGuideViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		18FA173019283E21005A946F /* TCFAQGuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TCFAQGuideViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		18FA1732192875DB005A946F /* TCFAQPopupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TCFAQPopupViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		18FA1733192875DB005A946F /* TCFAQPopupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TCFAQPopupViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		18FA17361928EDE0005A946F /* SpringTransitioningDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = SpringTransitioningDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		18FA17371928EDE0005A946F /* SpringTransitioningDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = SpringTransitioningDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		18FA173A1928EF7B005A946F /* PresentingSpringAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = PresentingSpringAnimator.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		18FA173B1928EF7B005A946F /* PresentingSpringAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = PresentingSpringAnimator.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		18FA173D1928F0A3005A946F /* DynamicDismissalAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicDismissalAnimator.h; sourceTree = "<group>"; };
+		18FA173E1928F0A3005A946F /* DynamicDismissalAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicDismissalAnimator.m; sourceTree = "<group>"; };
+		18FA173F1928F0A3005A946F /* LinearDismissalAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinearDismissalAnimator.h; sourceTree = "<group>"; };
+		18FA17401928F0A3005A946F /* LinearDismissalAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinearDismissalAnimator.m; sourceTree = "<group>"; };
+		18FA17431928F1C2005A946F /* delete-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "delete-1.png"; sourceTree = "<group>"; };
+		18FA17451928F913005A946F /* delete-1-filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "delete-1-filled.png"; sourceTree = "<group>"; };
+		18FA1749192AED7B005A946F /* BlurViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlurViewController.h; sourceTree = "<group>"; };
+		18FA174A192AED7B005A946F /* BlurViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlurViewController.m; sourceTree = "<group>"; };
+		18FB1A57192B616100B84F5B /* TCFlipsideViewControllerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TCFlipsideViewControllerDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		18FB3FD819035AEC00E32F0B /* TCMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TCMessageViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		18FB3FD919035AEC00E32F0B /* TCMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TCMessageViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		18FB3FDB1903620200E32F0B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		18FB3FF1190426A400E32F0B /* TCMOMessagesTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TCMOMessagesTests.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		18FB3FF51904A1B300E32F0B /* TCMessageListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TCMessageListViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		18FB3FF61904A1B300E32F0B /* TCMessageListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TCMessageListViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		18FB3FFB1904EB1F00E32F0B /* TCMessageSentContentTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TCMessageSentContentTableViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		18FB3FFC1904EB1F00E32F0B /* TCMessageSentContentTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TCMessageSentContentTableViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		18FB3FFE1904EB2D00E32F0B /* TCMessageReceivedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TCMessageReceivedTableViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		18FB3FFF1904EB2D00E32F0B /* TCMessageReceivedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TCMessageReceivedTableViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		18FF1CA818EB2A6900A7BB67 /* TCSyncManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TCSyncManager.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		18FF1CA918EB2A6900A7BB67 /* TCSyncManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TCSyncManager.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		18FF1CAB18EB2AB500A7BB67 /* TCServiceCommunicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TCServiceCommunicator.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		18FF1CAC18EB2AB500A7BB67 /* TCServiceCommunicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TCServiceCommunicator.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		18FF1CAE18EB2B2200A7BB67 /* TCDownloadTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TCDownloadTests.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		18FF1CB018EB2CC300A7BB67 /* TCServiceCommunicatorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TCServiceCommunicatorTests.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		18FF1CB218EB3BC000A7BB67 /* TCServiceCommunicatorOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TCServiceCommunicatorOperation.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		18FF1CB318EB3BC000A7BB67 /* TCServiceCommunicatorOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TCServiceCommunicatorOperation.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18BCC9B018D39D4700241C54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184974291908972E00BCBCDC /* MessageUI.framework in Frameworks */,
+				1849742219088F8000BCBCDC /* AddressBook.framework in Frameworks */,
+				1849742319088F8000BCBCDC /* AddressBookUI.framework in Frameworks */,
+				186354E91906ACB500145DD9 /* MapKit.framework in Frameworks */,
+				18FB3FDC1903620200E32F0B /* QuartzCore.framework in Frameworks */,
+				185C285019017E6600E3EE56 /* CoreLocation.framework in Frameworks */,
+				18BCC9B918D39D4700241C54 /* CoreGraphics.framework in Frameworks */,
+				18BCC9BD18D39D4700241C54 /* CoreData.framework in Frameworks */,
+				18BCC9BB18D39D4700241C54 /* UIKit.framework in Frameworks */,
+				18BCC9B718D39D4700241C54 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BCC9D018D39D4700241C54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BCC9D518D39D4700241C54 /* XCTest.framework in Frameworks */,
+				18BCC9D818D39D4700241C54 /* CoreData.framework in Frameworks */,
+				18BCC9D718D39D4700241C54 /* UIKit.framework in Frameworks */,
+				18BCC9D618D39D4700241C54 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18090F2618F6203F00FA4C4F /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				18090F2018F5EC8100FA4C4F /* TCTripTableViewCell.h */,
+				18090F2118F5EC8100FA4C4F /* TCTripTableViewCell.m */,
+				18090F2D18F716AA00FA4C4F /* TCCustomHeaderTableViewCell.h */,
+				18090F2E18F716AA00FA4C4F /* TCCustomHeaderTableViewCell.m */,
+				1833C4BC18FC73A300E7B32B /* TCCompanionProfileTableViewCell.h */,
+				1833C4BD18FC73A300E7B32B /* TCCompanionProfileTableViewCell.m */,
+				186354E119068FE900145DD9 /* TCCustomUserProfilesTableViewCell.h */,
+				186354E219068FE900145DD9 /* TCCustomUserProfilesTableViewCell.m */,
+				186354F11906EC4C00145DD9 /* TCCustomMessageProfileTableViewCell.h */,
+				186354F21906EC4C00145DD9 /* TCCustomMessageProfileTableViewCell.m */,
+				186355021907235F00145DD9 /* TCCustomProfilePrivateTableViewCell.h */,
+				186355031907235F00145DD9 /* TCCustomProfilePrivateTableViewCell.m */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		1833C49C18F9689F00E7B32B /* Mock Objects */ = {
+			isa = PBXGroup;
+			children = (
+				1833C4B318FB781700E7B32B /* TCFakeServiceCommunicator.h */,
+				1833C4B418FB781700E7B32B /* TCFakeServiceCommunicator.m */,
+				1833C4B618FB7BD900E7B32B /* TCFakeJSON.h */,
+				1833C4B718FB7BD900E7B32B /* TCFakeJSON.m */,
+			);
+			name = "Mock Objects";
+			sourceTree = "<group>";
+		};
+		1833C4A118F96B0500E7B32B /* Real Objects */ = {
+			isa = PBXGroup;
+			children = (
+				18907999190FD29200CB98D0 /* View Controllers */,
+				1801F54B18D77593001E9AFE /* TCAppDelegateTests.m */,
+				18ACBBBF18E71C280098776A /* TCCoreDataControllerTests.m */,
+				18090E6C18F3712D00FA4C4F /* TCJSONTests.m */,
+				1833C4E918FDE09100E7B32B /* TCMOCompanionProfilesTests.m */,
+				18FB3FF1190426A400E32F0B /* TCMOMessagesTests.m */,
+				18090E7D18F4555E00FA4C4F /* TCMOPersonTests.m */,
+				18090E7B18F453CE00FA4C4F /* TCMOTripsTests.m */,
+				18B836A7190ACD2300A2579E /* TCOtherTests.m */,
+				18FF1CB018EB2CC300A7BB67 /* TCServiceCommunicatorTests.m */,
+				18FF1CAE18EB2B2200A7BB67 /* TCDownloadTests.m */,
+				186C74BC19217DA1008E2AFC /* TCUploadTests.m */,
+			);
+			name = "Real Objects";
+			sourceTree = "<group>";
+		};
+		1833C4A618F96F2500E7B32B /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				1833C4AD18F97ADA00E7B32B /* TCBaseViewControllerTests.h */,
+				1833C4AE18F97ADA00E7B32B /* TCBaseViewControllerTests.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		1833C52D18FECA1E00E7B32B /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				18A99AC91934F93700169042 /* Companion Profile */,
+				1833C52418FEBFC000E7B32B /* TCEditProfileViewController.h */,
+				1833C52518FEBFC000E7B32B /* TCEditProfileViewController.m */,
+				1833C52A18FECA1500E7B32B /* TCEditSettingsTableViewController.h */,
+				1833C52B18FECA1500E7B32B /* TCEditSettingsTableViewController.m */,
+				185C28631902AB2500E3EE56 /* TCProfileOtherSubTableViewController.h */,
+				185C28641902AB2500E3EE56 /* TCProfileOtherSubTableViewController.m */,
+				185C28601902A44800E3EE56 /* TCProfileOtherViewController.h */,
+				185C28611902A44800E3EE56 /* TCProfileOtherViewController.m */,
+				186354DE1906157C00145DD9 /* TCProfileSubContainerDynamicTableViewController.h */,
+				186354DF1906157C00145DD9 /* TCProfileSubContainerDynamicTableViewController.m */,
+				186354DB1906156800145DD9 /* TCProfileSubContainerStaticTableViewController.h */,
+				186354DC1906156800145DD9 /* TCProfileSubContainerStaticTableViewController.m */,
+				186354D819060B6400145DD9 /* TCProfileSubViewController.h */,
+				186354D919060B6400145DD9 /* TCProfileSubViewController.m */,
+				18090F0C18F4C64F00FA4C4F /* TCProfileViewController.h */,
+				18090F0D18F4C64F00FA4C4F /* TCProfileViewController.m */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		1833C53418FF0CF300E7B32B /* Trips */ = {
+			isa = PBXGroup;
+			children = (
+				1850F70D18DB4E0C005469B5 /* TCNewTripViewController.h */,
+				1850F70E18DB4E0C005469B5 /* TCNewTripViewController.m */,
+				18090F0F18F4D1B500FA4C4F /* TCSelectAirportTableViewController.h */,
+				18090F1018F4D1B500FA4C4F /* TCSelectAirportTableViewController.m */,
+				1833C53118FF0CEC00E7B32B /* TCTripDetailViewController.h */,
+				1833C53218FF0CEC00E7B32B /* TCTripDetailViewController.m */,
+				1801F55018D77915001E9AFE /* TCTripsViewController.h */,
+				1801F55118D77915001E9AFE /* TCTripsViewController.m */,
+			);
+			name = Trips;
+			sourceTree = "<group>";
+		};
+		184974241908958700BCBCDC /* Help */ = {
+			isa = PBXGroup;
+			children = (
+				18497425190895B000BCBCDC /* TCEmailTableViewController.h */,
+				18497426190895B000BCBCDC /* TCEmailTableViewController.m */,
+				1833C52718FECA0500E7B32B /* TCFAQTableViewController.h */,
+				1833C52818FECA0500E7B32B /* TCFAQTableViewController.m */,
+				18FA17291927D050005A946F /* TCPrivacyViewController.h */,
+				18FA172A1927D050005A946F /* TCPrivacyViewController.m */,
+				18FA172C1927D073005A946F /* TCTermsViewController.h */,
+				18FA172D1927D073005A946F /* TCTermsViewController.m */,
+				18FA172F19283E21005A946F /* TCFAQGuideViewController.h */,
+				18FA173019283E21005A946F /* TCFAQGuideViewController.m */,
+				18FA1732192875DB005A946F /* TCFAQPopupViewController.h */,
+				18FA1733192875DB005A946F /* TCFAQPopupViewController.m */,
+			);
+			name = Help;
+			sourceTree = "<group>";
+		};
+		1850F70718DAFB4A005469B5 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				18BD767019098E230055465F /* EXT */,
+				18FB1A56192B5F9D00B84F5B /* Protocols */,
+				181218C1190153B800FC70A4 /* TCUtils.h */,
+				181218C2190153B800FC70A4 /* TCUtils.m */,
+				18FA17351928EDD0005A946F /* UIEffects */,
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
+		1850F70918DB4D80005469B5 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				184974241908958700BCBCDC /* Help */,
+				18FB3FF319043B4400E32F0B /* Messages */,
+				18A6D99D18FFED6B0005A66C /* Auth */,
+				1833C52D18FECA1E00E7B32B /* Profile */,
+				18A6D99C18FFED4F0005A66C /* Search */,
+				1833C53418FF0CF300E7B32B /* Trips */,
+				18090F2618F6203F00FA4C4F /* UI */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		1850F71018DB4E3E005469B5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18FB3FF01904266500E32F0B /* Framework Extensions */,
+				18ACBBBA18E711E30098776A /* MO Auto */,
+				18ACBBA618E710F50098776A /* MO Extensions */,
+				18ACBB9118E70D920098776A /* TCCompanionProfile.h */,
+				18ACBB9218E70D920098776A /* TCCompanionProfile.m */,
+				18ACBB9418E70E720098776A /* TCLocation.h */,
+				18ACBB9518E70E720098776A /* TCLocation.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		185C284C1901566200E3EE56 /* Seed Data */ = {
+			isa = PBXGroup;
+			children = (
+				185C284D1901567500E3EE56 /* TCSeedDataGenerator.m */,
+			);
+			name = "Seed Data";
+			sourceTree = "<group>";
+		};
+		186354EA1906E4BE00145DD9 /* Legacy2 */ = {
+			isa = PBXGroup;
+			children = (
+				18CB921A1905BE0600DBA11D /* TCCustomMessageViewController.h */,
+				18CB921B1905BE0600DBA11D /* TCCustomMessageViewController.m */,
+				18CB921D1905BF0300DBA11D /* TCCustomMessageContentViewController.h */,
+				18CB921E1905BF0300DBA11D /* TCCustomMessageContentViewController.m */,
+				18CB92201905C48A00DBA11D /* TCCustomMessagePageViewController.h */,
+				18CB92211905C48A00DBA11D /* TCCustomMessagePageViewController.m */,
+			);
+			name = Legacy2;
+			sourceTree = "<group>";
+		};
+		188F64AE191EBDC700B80B25 /* Icons Internal */ = {
+			isa = PBXGroup;
+			children = (
+				1888A28019322CB400EFEC42 /* alert-1.png */,
+				180B41C9191DAB7E007A8B80 /* bubble-comment-2-filled.png */,
+				1801F55918D78ABA001E9AFE /* bubble-comment-2-outline.png */,
+				18E1C6A1192535ED00725652 /* bubble-smiley-3.png */,
+				18E1C6A7192537B800725652 /* check-shield.png */,
+				18E1C6A51925372600725652 /* cloud-refresh.png */,
+				18E1C6A919253BBB00725652 /* comodo_secure_100x85_white.png */,
+				18FA17451928F913005A946F /* delete-1-filled.png */,
+				18FA17431928F1C2005A946F /* delete-1.png */,
+				18A99A7E1932D40E00169042 /* information-filled.png */,
+				18A99A7F1932D40E00169042 /* information-outline.png */,
+				180B41CB191DABBD007A8B80 /* magnifier-filled.png */,
+				1801F55718D78A77001E9AFE /* magnifier-outline.png */,
+				18E1C69F1925350400725652 /* plane-landing.png */,
+				180B41CD191DAC20007A8B80 /* plane-takeoff-filled.png */,
+				1801F55518D7898F001E9AFE /* plane-takeoff-outline.png */,
+				18F40835191453390004A057 /* setting-gears-new-filled.png */,
+				185C28511901B07400E3EE56 /* setting-gears-new-outline.png */,
+				18E1C6A31925366A00725652 /* smartphone.png */,
+				180B41C5191DAB23007A8B80 /* user-1-filled.png */,
+				1801F55B18D78B1A001E9AFE /* user-1-outline.png */,
+				180B41C7191DAB4D007A8B80 /* user-2-filled.png */,
+				186354FC190716D400145DD9 /* user-2-outline.png */,
+			);
+			name = "Icons Internal";
+			sourceTree = "<group>";
+		};
+		188F64AF191EBDD300B80B25 /* App Icons */ = {
+			isa = PBXGroup;
+			children = (
+				18AFFC3119214D7B0028986D /* iphone-app-icon.png */,
+				18AFFC3219214D7B0028986D /* iphone-app-icon@2x.png */,
+				18A99A841933919600169042 /* iTunesArtWork.png */,
+				18A99A851933919600169042 /* iTunesArtWork@2x.png */,
+				18AFFC3519214D7B0028986D /* settings.png */,
+				18AFFC3619214D7B0028986D /* settings@2x.png */,
+				18AFFC3719214D7B0028986D /* spotlight.png */,
+				18AFFC3819214D7B0028986D /* spotlight@2x.png */,
+			);
+			name = "App Icons";
+			sourceTree = "<group>";
+		};
+		188F64B0191EBDD900B80B25 /* Launch Images */ = {
+			isa = PBXGroup;
+			children = (
+				18AFFC0719212E3A0028986D /* Default-568h@2x.png */,
+				18AFFC0819212E3A0028986D /* Default.png */,
+				18AFFC0919212E3A0028986D /* Default@2x.png */,
+			);
+			name = "Launch Images";
+			sourceTree = "<group>";
+		};
+		18907999190FD29200CB98D0 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				18C0666418D39DB400930A93 /* TCLoginViewControllerTests.m */,
+				18907997190FD27A00CB98D0 /* TCProfileViewControllerTests.m */,
+				181218BB1900453700FC70A4 /* TCSearchResultsViewControllerTests.m */,
+				18090F1A18F59A1800FA4C4F /* TCSelectAirportTableViewControllerTests.m */,
+				1839E67C190EB23200024F9D /* TCSignupViewControllerTests.m */,
+				1833C4A418F96F1700E7B32B /* TCTripsViewControllerTests.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		18A6D99C18FFED4F0005A66C /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				18A6D9A418FFF9C70005A66C /* TCSearchTableViewController.h */,
+				18A6D9A518FFF9C70005A66C /* TCSearchTableViewController.m */,
+				18A6D9A7190009AD0005A66C /* TCSearchContentViewController.h */,
+				18A6D9A8190009AD0005A66C /* TCSearchContentViewController.m */,
+				18A6D9AA19000F940005A66C /* TCSearchResultsViewController.h */,
+				18A6D9AB19000F940005A66C /* TCSearchResultsViewController.m */,
+				18A6D9B019003B250005A66C /* TCEmptySearchView.h */,
+				18A6D9B119003B250005A66C /* TCEmptySearchView.m */,
+			);
+			name = Search;
+			sourceTree = "<group>";
+		};
+		18A6D99D18FFED6B0005A66C /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				1850F71B18DB57E0005469B5 /* TCLoginViewController.h */,
+				1850F71C18DB57E0005469B5 /* TCLoginViewController.m */,
+				1839E679190D70A900024F9D /* TCSignupViewController.h */,
+				1839E67A190D70A900024F9D /* TCSignupViewController.m */,
+			);
+			name = Auth;
+			sourceTree = "<group>";
+		};
+		18A99AC91934F93700169042 /* Companion Profile */ = {
+			isa = PBXGroup;
+			children = (
+				18090F2A18F705F900FA4C4F /* TCAddCompanionProfileTableViewController.h */,
+				18090F2B18F705F900FA4C4F /* TCAddCompanionProfileTableViewController.m */,
+				18090F2318F61E2E00FA4C4F /* TCCompanionProfileTableViewController.h */,
+				18090F2418F61E2E00FA4C4F /* TCCompanionProfileTableViewController.m */,
+				18BD766D1908BBF20055465F /* TCProfileCompanionProfileTableViewController.h */,
+				18BD766E1908BBF20055465F /* TCProfileCompanionProfileTableViewController.m */,
+			);
+			name = "Companion Profile";
+			sourceTree = "<group>";
+		};
+		18ACBBA618E710F50098776A /* MO Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				18ACBBB318E711B00098776A /* Airports+Management.h */,
+				18ACBBB418E711B00098776A /* Airports+Management.m */,
+				18090EEE18F4A47E00FA4C4F /* CompanionProfiles+Management.h */,
+				18090EEF18F4A47E00FA4C4F /* CompanionProfiles+Management.m */,
+				18ACBBB618E711C10098776A /* Messages+Management.h */,
+				18ACBBB718E711C10098776A /* Messages+Management.m */,
+				18ACBBAD18E7118A0098776A /* Person+Management.h */,
+				18ACBBAE18E7118A0098776A /* Person+Management.m */,
+				18ACBBAA18E711780098776A /* Photos+Management.h */,
+				18ACBBAB18E711780098776A /* Photos+Management.m */,
+				18ACBBB018E7119B0098776A /* Trips+Management.h */,
+				18ACBBB118E7119B0098776A /* Trips+Management.m */,
+				1890799E191131BC00CB98D0 /* NSManagedObject+JSON.h */,
+				1890799F191131BC00CB98D0 /* NSManagedObject+JSON.m */,
+			);
+			name = "MO Extensions";
+			sourceTree = "<group>";
+		};
+		18ACBBBA18E711E30098776A /* MO Auto */ = {
+			isa = PBXGroup;
+			children = (
+				1872E2D8190836F900BA5CE0 /* Airports.h */,
+				1872E2D9190836F900BA5CE0 /* Airports.m */,
+				1872E2D5190836F900BA5CE0 /* Trips.h */,
+				1872E2D6190836F900BA5CE0 /* Trips.m */,
+				1872E2D2190836F900BA5CE0 /* Photos.h */,
+				1872E2D3190836F900BA5CE0 /* Photos.m */,
+				1872E2CF190836F900BA5CE0 /* Messages.h */,
+				1872E2D0190836F900BA5CE0 /* Messages.m */,
+				1872E2CC190836F900BA5CE0 /* Person.h */,
+				1872E2CD190836F900BA5CE0 /* Person.m */,
+				1872E2C9190836F800BA5CE0 /* CompanionProfiles.h */,
+				1872E2CA190836F800BA5CE0 /* CompanionProfiles.m */,
+			);
+			name = "MO Auto";
+			sourceTree = "<group>";
+		};
+		18BCC9AA18D39D4700241C54 = {
+			isa = PBXGroup;
+			children = (
+				18BCC9BE18D39D4700241C54 /* travelcompanion */,
+				18BCC9DB18D39D4700241C54 /* travelcompanionTests */,
+				18BCC9B518D39D4700241C54 /* Frameworks */,
+				18BCC9B418D39D4700241C54 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18BCC9B418D39D4700241C54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18BCC9B318D39D4700241C54 /* Peer Flight.app */,
+				18BCC9D318D39D4700241C54 /* travelcompanionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18BCC9B518D39D4700241C54 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				184974281908972E00BCBCDC /* MessageUI.framework */,
+				1849742019088F8000BCBCDC /* AddressBook.framework */,
+				1849742119088F8000BCBCDC /* AddressBookUI.framework */,
+				186354E81906ACB500145DD9 /* MapKit.framework */,
+				18FB3FDB1903620200E32F0B /* QuartzCore.framework */,
+				185C284F19017E6600E3EE56 /* CoreLocation.framework */,
+				18BCC9B618D39D4700241C54 /* Foundation.framework */,
+				18BCC9B818D39D4700241C54 /* CoreGraphics.framework */,
+				18BCC9BA18D39D4700241C54 /* UIKit.framework */,
+				18BCC9BC18D39D4700241C54 /* CoreData.framework */,
+				18BCC9D418D39D4700241C54 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18BCC9BE18D39D4700241C54 /* travelcompanion */ = {
+			isa = PBXGroup;
+			children = (
+				1850F70718DAFB4A005469B5 /* Lib */,
+				18FF1CA718EB2A5000A7BB67 /* Manager */,
+				1850F71018DB4E3E005469B5 /* Model */,
+				18E9583718E3B02500AA6962 /* Resources */,
+				18BCC9BF18D39D4700241C54 /* Supporting Files */,
+				1850F70918DB4D80005469B5 /* View Controllers */,
+			);
+			path = travelcompanion;
+			sourceTree = "<group>";
+		};
+		18BCC9BF18D39D4700241C54 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18BCC9C418D39D4700241C54 /* main.m */,
+				18BCC9C618D39D4700241C54 /* travelcompanion-Prefix.pch */,
+				18BCC9C018D39D4700241C54 /* travelcompanion-Info.plist */,
+				18BCC9C118D39D4700241C54 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18BCC9DB18D39D4700241C54 /* travelcompanionTests */ = {
+			isa = PBXGroup;
+			children = (
+				185C284C1901566200E3EE56 /* Seed Data */,
+				1833C4A618F96F2500E7B32B /* Base */,
+				1833C4A118F96B0500E7B32B /* Real Objects */,
+				1833C49C18F9689F00E7B32B /* Mock Objects */,
+				18BCC9DC18D39D4700241C54 /* Supporting Files */,
+			);
+			path = travelcompanionTests;
+			sourceTree = "<group>";
+		};
+		18BCC9DC18D39D4700241C54 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18BCC9DD18D39D4700241C54 /* travelcompanionTests-Info.plist */,
+				18BCC9DE18D39D4700241C54 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18BD767019098E230055465F /* EXT */ = {
+			isa = PBXGroup;
+			children = (
+				18BD767119098F260055465F /* MBProgressHUD.h */,
+				18BD767219098F260055465F /* MBProgressHUD.m */,
+				1839E66F190C22FC00024F9D /* Reachability.h */,
+				1839E670190C22FC00024F9D /* Reachability.m */,
+			);
+			name = EXT;
+			sourceTree = "<group>";
+		};
+		18CB92191905BDBD00DBA11D /* Legacy */ = {
+			isa = PBXGroup;
+			children = (
+				18FB3FF51904A1B300E32F0B /* TCMessageListViewController.h */,
+				18FB3FF61904A1B300E32F0B /* TCMessageListViewController.m */,
+				18FB3FFB1904EB1F00E32F0B /* TCMessageSentContentTableViewController.h */,
+				18FB3FFC1904EB1F00E32F0B /* TCMessageSentContentTableViewController.m */,
+				18FB3FFE1904EB2D00E32F0B /* TCMessageReceivedTableViewController.h */,
+				18FB3FFF1904EB2D00E32F0B /* TCMessageReceivedTableViewController.m */,
+			);
+			name = Legacy;
+			sourceTree = "<group>";
+		};
+		18E9583718E3B02500AA6962 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				188F64B0191EBDD900B80B25 /* Launch Images */,
+				188F64AF191EBDD300B80B25 /* App Icons */,
+				188F64AE191EBDC700B80B25 /* Icons Internal */,
+				183A9D5E19076E3500749DAA /* TravelCompanionNew.xcdatamodeld */,
+				1876DE4A19080385006CFB9A /* travelcompanionutility.sqlite */,
+				18A99A821933753E00169042 /* Images-2.xcassets */,
+				1801F54D18D7781A001E9AFE /* MainStoryboard_iPhone.storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		18FA17351928EDD0005A946F /* UIEffects */ = {
+			isa = PBXGroup;
+			children = (
+				18FA17391928EF61005A946F /* Modal */,
+			);
+			name = UIEffects;
+			sourceTree = "<group>";
+		};
+		18FA17391928EF61005A946F /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				18FA17361928EDE0005A946F /* SpringTransitioningDelegate.h */,
+				18FA17371928EDE0005A946F /* SpringTransitioningDelegate.m */,
+				18FA173A1928EF7B005A946F /* PresentingSpringAnimator.h */,
+				18FA173B1928EF7B005A946F /* PresentingSpringAnimator.m */,
+				18FA173D1928F0A3005A946F /* DynamicDismissalAnimator.h */,
+				18FA173E1928F0A3005A946F /* DynamicDismissalAnimator.m */,
+				18FA173F1928F0A3005A946F /* LinearDismissalAnimator.h */,
+				18FA17401928F0A3005A946F /* LinearDismissalAnimator.m */,
+				18FA1749192AED7B005A946F /* BlurViewController.h */,
+				18FA174A192AED7B005A946F /* BlurViewController.m */,
+			);
+			name = Modal;
+			sourceTree = "<group>";
+		};
+		18FB1A56192B5F9D00B84F5B /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				18FB1A57192B616100B84F5B /* TCFlipsideViewControllerDelegate.h */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		18FB3FF01904266500E32F0B /* Framework Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1833C4B918FC640C00E7B32B /* NSManagedObject+TCInternalManagement.h */,
+				1833C4BA18FC640C00E7B32B /* NSManagedObject+TCInternalManagement.m */,
+				18F7115619228F9100011CA6 /* NSArray+Reverse.h */,
+				18F7115719228F9100011CA6 /* NSArray+Reverse.m */,
+				18E1C6AB19258D1B00725652 /* NSDictionary+JsonObject.h */,
+				18E1C6AC19258D1B00725652 /* NSDictionary+JsonObject.m */,
+			);
+			name = "Framework Extensions";
+			sourceTree = "<group>";
+		};
+		18FB3FF319043B4400E32F0B /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				186354EA1906E4BE00145DD9 /* Legacy2 */,
+				18CB92191905BDBD00DBA11D /* Legacy */,
+				18FB3FD819035AEC00E32F0B /* TCMessageViewController.h */,
+				18FB3FD919035AEC00E32F0B /* TCMessageViewController.m */,
+				18B7447119056E8300B62B98 /* TCMessageDetailViewController.h */,
+				18B7447219056E8300B62B98 /* TCMessageDetailViewController.m */,
+				186354EB1906E4F400145DD9 /* TCNewMessageViewController.h */,
+				186354EC1906E4F400145DD9 /* TCNewMessageViewController.m */,
+				186354EE1906E68400145DD9 /* TCNewMessageContentViewController.h */,
+				186354EF1906E68400145DD9 /* TCNewMessageContentViewController.m */,
+			);
+			name = Messages;
+			sourceTree = "<group>";
+		};
+		18FF1CA718EB2A5000A7BB67 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				18BCC9C718D39D4700241C54 /* TCAppDelegate.h */,
+				18BCC9C818D39D4700241C54 /* TCAppDelegate.m */,
+				18ACBBBC18E71AF60098776A /* TCCoreDataController.h */,
+				18ACBBBD18E71AF60098776A /* TCCoreDataController.m */,
+				1839E672190C3C7F00024F9D /* TCReachabilityManager.h */,
+				1839E673190C3C7F00024F9D /* TCReachabilityManager.m */,
+				18FF1CAB18EB2AB500A7BB67 /* TCServiceCommunicator.h */,
+				18FF1CAC18EB2AB500A7BB67 /* TCServiceCommunicator.m */,
+				18FF1CB218EB3BC000A7BB67 /* TCServiceCommunicatorOperation.h */,
+				18FF1CB318EB3BC000A7BB67 /* TCServiceCommunicatorOperation.m */,
+				18FF1CA818EB2A6900A7BB67 /* TCSyncManager.h */,
+				18FF1CA918EB2A6900A7BB67 /* TCSyncManager.m */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18BCC9B218D39D4700241C54 /* travelcompanion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18BCC9E518D39D4800241C54 /* Build configuration list for PBXNativeTarget "travelcompanion" */;
+			buildPhases = (
+				18BCC9AF18D39D4700241C54 /* Sources */,
+				18BCC9B018D39D4700241C54 /* Frameworks */,
+				18BCC9B118D39D4700241C54 /* Resources */,
+				18C0667418D3CD9A00930A93 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = travelcompanion;
+			productName = travelcompanion;
+			productReference = 18BCC9B318D39D4700241C54 /* Peer Flight.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18BCC9D218D39D4700241C54 /* travelcompanionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18BCC9E818D39D4800241C54 /* Build configuration list for PBXNativeTarget "travelcompanionTests" */;
+			buildPhases = (
+				18BCC9CF18D39D4700241C54 /* Sources */,
+				18BCC9D018D39D4700241C54 /* Frameworks */,
+				18BCC9D118D39D4700241C54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18BCC9DA18D39D4700241C54 /* PBXTargetDependency */,
+			);
+			name = travelcompanionTests;
+			productName = travelcompanionTests;
+			productReference = 18BCC9D318D39D4700241C54 /* travelcompanionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18BCC9AB18D39D4700241C54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TC;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Sandeep Jangity";
+				TargetAttributes = {
+					18BCC9B218D39D4700241C54 = {
+						DevelopmentTeam = HKB639YWW4;
+						SystemCapabilities = {
+							com.apple.iOS = {
+								enabled = 0;
+							};
+						};
+					};
+					18BCC9D218D39D4700241C54 = {
+						TestTargetID = 18BCC9B218D39D4700241C54;
+					};
+				};
+			};
+			buildConfigurationList = 18BCC9AE18D39D4700241C54 /* Build configuration list for PBXProject "travelcompanion" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 18BCC9AA18D39D4700241C54;
+			productRefGroup = 18BCC9B418D39D4700241C54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18BCC9B218D39D4700241C54 /* travelcompanion */,
+				18BCC9D218D39D4700241C54 /* travelcompanionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18BCC9B118D39D4700241C54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E1C6A41925366A00725652 /* smartphone.png in Resources */,
+				18AFFC3D19214D7B0028986D /* settings.png in Resources */,
+				1876DE4B190803A5006CFB9A /* travelcompanionutility.sqlite in Resources */,
+				18A99A871933919600169042 /* iTunesArtWork@2x.png in Resources */,
+				180B41C8191DAB4D007A8B80 /* user-2-filled.png in Resources */,
+				18AFFC0C19212E3A0028986D /* Default@2x.png in Resources */,
+				1801F54E18D7781A001E9AFE /* MainStoryboard_iPhone.storyboard in Resources */,
+				18E1C6A8192537B800725652 /* check-shield.png in Resources */,
+				18E1C6AA19253BBB00725652 /* comodo_secure_100x85_white.png in Resources */,
+				18AFFC0B19212E3A0028986D /* Default.png in Resources */,
+				1801F55818D78A77001E9AFE /* magnifier-outline.png in Resources */,
+				1801F55618D7898F001E9AFE /* plane-takeoff-outline.png in Resources */,
+				180B41CE191DAC20007A8B80 /* plane-takeoff-filled.png in Resources */,
+				18AFFC3A19214D7B0028986D /* iphone-app-icon@2x.png in Resources */,
+				18AFFC3919214D7B0028986D /* iphone-app-icon.png in Resources */,
+				18A99A861933919600169042 /* iTunesArtWork.png in Resources */,
+				180B41CC191DABBD007A8B80 /* magnifier-filled.png in Resources */,
+				1888A28119322CB400EFEC42 /* alert-1.png in Resources */,
+				18BCC9C318D39D4700241C54 /* InfoPlist.strings in Resources */,
+				18AFFC4019214D7B0028986D /* spotlight@2x.png in Resources */,
+				18FA17441928F1C2005A946F /* delete-1.png in Resources */,
+				18FA17461928F913005A946F /* delete-1-filled.png in Resources */,
+				18AFFC3F19214D7B0028986D /* spotlight.png in Resources */,
+				1801F55C18D78B1A001E9AFE /* user-1-outline.png in Resources */,
+				18A99A801932D40E00169042 /* information-filled.png in Resources */,
+				180B41CA191DAB7E007A8B80 /* bubble-comment-2-filled.png in Resources */,
+				18E1C6A01925350400725652 /* plane-landing.png in Resources */,
+				18A99A831933753E00169042 /* Images-2.xcassets in Resources */,
+				185C28521901B07400E3EE56 /* setting-gears-new-outline.png in Resources */,
+				186354FD190716D400145DD9 /* user-2-outline.png in Resources */,
+				18A99A811932D40E00169042 /* information-outline.png in Resources */,
+				180B41C6191DAB23007A8B80 /* user-1-filled.png in Resources */,
+				18AFFC3E19214D7B0028986D /* settings@2x.png in Resources */,
+				18E1C6A61925372600725652 /* cloud-refresh.png in Resources */,
+				18F40836191453390004A057 /* setting-gears-new-filled.png in Resources */,
+				1801F55A18D78ABA001E9AFE /* bubble-comment-2-outline.png in Resources */,
+				18E1C6A2192535ED00725652 /* bubble-smiley-3.png in Resources */,
+				18AFFC0A19212E3A0028986D /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BCC9D118D39D4700241C54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BCC9E018D39D4700241C54 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18C0667418D3CD9A00930A93 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#appledoc Xcode script  \n# Start constants  \ncompany=\"Peerflight\";\ncompanyID=\"com.peerflight\";\ncompanyURL=\"http://peerflight.com\";\ntarget=\"iphoneos\";\n#target=\"macosx\";\noutputPath=\"~/help\";\n# End constants\n/usr/local/bin/appledoc \\\n--project-name \"${PROJECT_NAME}\" \\\n--project-company \"${company}\" \\\n--company-id \"${companyID}\" \\\n--docset-atom-filename \"${company}.atom\" \\\n--docset-feed-url \"${companyURL}/${company}/%DOCSETATOMFILENAME\" \\\n--docset-package-url \"${companyURL}/${company}/%DOCSETPACKAGEFILENAME\" \\\n--docset-fallback-url \"${companyURL}/${company}\" \\\n--output \"${outputPath}\" \\\n--publish-docset \\\n--docset-platform-family \"${target}\" \\\n--logformat xcode \\\n--keep-intermediate-files \\\n--no-repeat-first-par \\\n--no-warn-invalid-crossref \\\n--exit-threshold 2 \\\n\"${PROJECT_DIR}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18BCC9AF18D39D4700241C54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186355041907235F00145DD9 /* TCCustomProfilePrivateTableViewCell.m in Sources */,
+				1872E2DA190836F900BA5CE0 /* Airports.m in Sources */,
+				1872E2CB190836F800BA5CE0 /* CompanionProfiles.m in Sources */,
+				18ACBB9318E70D920098776A /* TCCompanionProfile.m in Sources */,
+				189079A0191131BC00CB98D0 /* NSManagedObject+JSON.m in Sources */,
+				18FB3FDA19035AEC00E32F0B /* TCMessageViewController.m in Sources */,
+				181218C3190153B800FC70A4 /* TCUtils.m in Sources */,
+				18090F2518F61E2E00FA4C4F /* TCCompanionProfileTableViewController.m in Sources */,
+				1833C4BB18FC640C00E7B32B /* NSManagedObject+TCInternalManagement.m in Sources */,
+				1833C53318FF0CEC00E7B32B /* TCTripDetailViewController.m in Sources */,
+				186354DD1906156800145DD9 /* TCProfileSubContainerStaticTableViewController.m in Sources */,
+				18FA17421928F0A3005A946F /* LinearDismissalAnimator.m in Sources */,
+				18CB921C1905BE0600DBA11D /* TCCustomMessageViewController.m in Sources */,
+				1850F71D18DB57E0005469B5 /* TCLoginViewController.m in Sources */,
+				18A6D9B219003B250005A66C /* TCEmptySearchView.m in Sources */,
+				18BD767319098F260055465F /* MBProgressHUD.m in Sources */,
+				18FA1734192875DB005A946F /* TCFAQPopupViewController.m in Sources */,
+				18A6D9A9190009AD0005A66C /* TCSearchContentViewController.m in Sources */,
+				1801F55218D77915001E9AFE /* TCTripsViewController.m in Sources */,
+				18090EF018F4A47E00FA4C4F /* CompanionProfiles+Management.m in Sources */,
+				18FF1CB418EB3BC000A7BB67 /* TCServiceCommunicatorOperation.m in Sources */,
+				18ACBBBE18E71AF60098776A /* TCCoreDataController.m in Sources */,
+				1833C52918FECA0500E7B32B /* TCFAQTableViewController.m in Sources */,
+				18FA172E1927D073005A946F /* TCTermsViewController.m in Sources */,
+				1839E67B190D70A900024F9D /* TCSignupViewController.m in Sources */,
+				1833C52618FEBFC000E7B32B /* TCEditProfileViewController.m in Sources */,
+				186354F31906EC4C00145DD9 /* TCCustomMessageProfileTableViewCell.m in Sources */,
+				186354E01906157C00145DD9 /* TCProfileSubContainerDynamicTableViewController.m in Sources */,
+				18ACBBAC18E711780098776A /* Photos+Management.m in Sources */,
+				1872E2D7190836F900BA5CE0 /* Trips.m in Sources */,
+				18BCC9C918D39D4700241C54 /* TCAppDelegate.m in Sources */,
+				18FF1CAD18EB2AB500A7BB67 /* TCServiceCommunicator.m in Sources */,
+				18ACBBB818E711C10098776A /* Messages+Management.m in Sources */,
+				1850F70F18DB4E0C005469B5 /* TCNewTripViewController.m in Sources */,
+				1833C52C18FECA1500E7B32B /* TCEditSettingsTableViewController.m in Sources */,
+				18FA17411928F0A3005A946F /* DynamicDismissalAnimator.m in Sources */,
+				18FA174B192AED7B005A946F /* BlurViewController.m in Sources */,
+				1839E674190C3C7F00024F9D /* TCReachabilityManager.m in Sources */,
+				1833C4BE18FC73A300E7B32B /* TCCompanionProfileTableViewCell.m in Sources */,
+				18F7115819228F9100011CA6 /* NSArray+Reverse.m in Sources */,
+				185C28651902AB2500E3EE56 /* TCProfileOtherSubTableViewController.m in Sources */,
+				18ACBB9618E70E720098776A /* TCLocation.m in Sources */,
+				18090F1118F4D1B500FA4C4F /* TCSelectAirportTableViewController.m in Sources */,
+				18FA172B1927D050005A946F /* TCPrivacyViewController.m in Sources */,
+				18090F2C18F705F900FA4C4F /* TCAddCompanionProfileTableViewController.m in Sources */,
+				18FB3FF71904A1B300E32F0B /* TCMessageListViewController.m in Sources */,
+				18BCC9C518D39D4700241C54 /* main.m in Sources */,
+				186354DA19060B6400145DD9 /* TCProfileSubViewController.m in Sources */,
+				186354ED1906E4F400145DD9 /* TCNewMessageViewController.m in Sources */,
+				18FA173119283E21005A946F /* TCFAQGuideViewController.m in Sources */,
+				18E1C6AD19258D1B00725652 /* NSDictionary+JsonObject.m in Sources */,
+				18B7447319056E8300B62B98 /* TCMessageDetailViewController.m in Sources */,
+				183A9D6019076E3500749DAA /* TravelCompanionNew.xcdatamodeld in Sources */,
+				1872E2CE190836F900BA5CE0 /* Person.m in Sources */,
+				18FA17381928EDE0005A946F /* SpringTransitioningDelegate.m in Sources */,
+				18FF1CAA18EB2A6900A7BB67 /* TCSyncManager.m in Sources */,
+				18BD766F1908BBF20055465F /* TCProfileCompanionProfileTableViewController.m in Sources */,
+				185C28621902A44800E3EE56 /* TCProfileOtherViewController.m in Sources */,
+				18CB921F1905BF0300DBA11D /* TCCustomMessageContentViewController.m in Sources */,
+				186354F01906E68400145DD9 /* TCNewMessageContentViewController.m in Sources */,
+				18ACBBAF18E7118A0098776A /* Person+Management.m in Sources */,
+				18FA173C1928EF7B005A946F /* PresentingSpringAnimator.m in Sources */,
+				18090F0E18F4C64F00FA4C4F /* TCProfileViewController.m in Sources */,
+				1872E2D1190836F900BA5CE0 /* Messages.m in Sources */,
+				18CB92221905C48A00DBA11D /* TCCustomMessagePageViewController.m in Sources */,
+				18FB40001904EB2D00E32F0B /* TCMessageReceivedTableViewController.m in Sources */,
+				186354E319068FE900145DD9 /* TCCustomUserProfilesTableViewCell.m in Sources */,
+				1872E2D4190836F900BA5CE0 /* Photos.m in Sources */,
+				18ACBBB518E711B00098776A /* Airports+Management.m in Sources */,
+				18A6D9A618FFF9C70005A66C /* TCSearchTableViewController.m in Sources */,
+				18A6D9AC19000F940005A66C /* TCSearchResultsViewController.m in Sources */,
+				1839E671190C22FC00024F9D /* Reachability.m in Sources */,
+				18090F2218F5EC8100FA4C4F /* TCTripTableViewCell.m in Sources */,
+				18FB3FFD1904EB1F00E32F0B /* TCMessageSentContentTableViewController.m in Sources */,
+				18ACBBB218E7119B0098776A /* Trips+Management.m in Sources */,
+				18497427190895B000BCBCDC /* TCEmailTableViewController.m in Sources */,
+				18090F2F18F716AA00FA4C4F /* TCCustomHeaderTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BCC9CF18D39D4700241C54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181218BC1900453700FC70A4 /* TCSearchResultsViewControllerTests.m in Sources */,
+				185C284E1901567500E3EE56 /* TCSeedDataGenerator.m in Sources */,
+				18090E6D18F3712D00FA4C4F /* TCJSONTests.m in Sources */,
+				18090E7E18F4555E00FA4C4F /* TCMOPersonTests.m in Sources */,
+				186C74BD19217DA1008E2AFC /* TCUploadTests.m in Sources */,
+				18FB3FF2190426A400E32F0B /* TCMOMessagesTests.m in Sources */,
+				1833C4AF18F97ADA00E7B32B /* TCBaseViewControllerTests.m in Sources */,
+				18ACBBC018E71C280098776A /* TCCoreDataControllerTests.m in Sources */,
+				18907998190FD27A00CB98D0 /* TCProfileViewControllerTests.m in Sources */,
+				1833C4B818FB7BD900E7B32B /* TCFakeJSON.m in Sources */,
+				1833C4EA18FDE09100E7B32B /* TCMOCompanionProfilesTests.m in Sources */,
+				18090F1B18F59A1800FA4C4F /* TCSelectAirportTableViewControllerTests.m in Sources */,
+				1833C4A518F96F1700E7B32B /* TCTripsViewControllerTests.m in Sources */,
+				18FF1CAF18EB2B2200A7BB67 /* TCDownloadTests.m in Sources */,
+				1833C4B518FB781700E7B32B /* TCFakeServiceCommunicator.m in Sources */,
+				18FF1CB118EB2CC300A7BB67 /* TCServiceCommunicatorTests.m in Sources */,
+				18C0666518D39DB400930A93 /* TCLoginViewControllerTests.m in Sources */,
+				18B836A8190ACD2300A2579E /* TCOtherTests.m in Sources */,
+				18090E7C18F453CE00FA4C4F /* TCMOTripsTests.m in Sources */,
+				1801F54C18D77593001E9AFE /* TCAppDelegateTests.m in Sources */,
+				1839E67D190EB23200024F9D /* TCSignupViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18BCC9DA18D39D4700241C54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18BCC9B218D39D4700241C54 /* travelcompanion */;
+			targetProxy = 18BCC9D918D39D4700241C54 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18BCC9C118D39D4700241C54 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18BCC9C218D39D4700241C54 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		18BCC9DE18D39D4700241C54 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18BCC9DF18D39D4700241C54 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		180BB5BC191D178800E12995 /* Release - Local */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"ENV_TYPE=0",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release - Local";
+		};
+		180BB5BD191D178800E12995 /* Release - Local */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "travelcompanion/travelcompanion-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				INFOPLIST_FILE = "travelcompanion/travelcompanion-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MOMC_NO_INVERSE_RELATIONSHIP_WARNINGS = YES;
+				PRODUCT_NAME = "Peer Flight";
+				WRAPPER_EXTENSION = app;
+			};
+			name = "Release - Local";
+		};
+		180BB5BE191D178800E12995 /* Release - Local */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Peer Flight.app/Peer Flight";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "travelcompanion/travelcompanion-Prefix.pch";
+				INFOPLIST_FILE = "travelcompanionTests/travelcompanionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = "Release - Local";
+		};
+		180BB5C5191D1BB700E12995 /* Debug - Local */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"ENV_TYPE=0",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = "Debug - Local";
+		};
+		180BB5C6191D1BB700E12995 /* Debug - Local */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "travelcompanion/travelcompanion-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				INFOPLIST_FILE = "travelcompanion/travelcompanion-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MOMC_NO_INVERSE_RELATIONSHIP_WARNINGS = YES;
+				PRODUCT_NAME = "Peer Flight";
+				WRAPPER_EXTENSION = app;
+			};
+			name = "Debug - Local";
+		};
+		180BB5C7191D1BB700E12995 /* Debug - Local */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Peer Flight.app/Peer Flight";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "travelcompanion/travelcompanion-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "travelcompanionTests/travelcompanionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = "Debug - Local";
+		};
+		180BB5D4191D204200E12995 /* Debug - Dev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"ENV_TYPE=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = "Debug - Dev";
+		};
+		180BB5D5191D204200E12995 /* Debug - Dev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "travelcompanion/travelcompanion-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				INFOPLIST_FILE = "travelcompanion/travelcompanion-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MOMC_NO_INVERSE_RELATIONSHIP_WARNINGS = YES;
+				PRODUCT_NAME = "Peer Flight";
+				WRAPPER_EXTENSION = app;
+			};
+			name = "Debug - Dev";
+		};
+		180BB5D6191D204200E12995 /* Debug - Dev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Peer Flight.app/Peer Flight";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "travelcompanion/travelcompanion-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "travelcompanionTests/travelcompanionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = "Debug - Dev";
+		};
+		180BB5D7191D206600E12995 /* Debug - Staging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"ENV_TYPE=2",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = "Debug - Staging";
+		};
+		180BB5D8191D206600E12995 /* Debug - Staging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "travelcompanion/travelcompanion-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				INFOPLIST_FILE = "travelcompanion/travelcompanion-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MOMC_NO_INVERSE_RELATIONSHIP_WARNINGS = YES;
+				PRODUCT_NAME = "Peer Flight";
+				WRAPPER_EXTENSION = app;
+			};
+			name = "Debug - Staging";
+		};
+		180BB5D9191D206600E12995 /* Debug - Staging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Peer Flight.app/Peer Flight";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "travelcompanion/travelcompanion-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "travelcompanionTests/travelcompanionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = "Debug - Staging";
+		};
+		180BB5DA191D206C00E12995 /* Debug - Production */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"ENV_TYPE=3",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = "Debug - Production";
+		};
+		180BB5DB191D206C00E12995 /* Debug - Production */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "travelcompanion/travelcompanion-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				INFOPLIST_FILE = "travelcompanion/travelcompanion-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MOMC_NO_INVERSE_RELATIONSHIP_WARNINGS = YES;
+				PRODUCT_NAME = "Peer Flight";
+				WRAPPER_EXTENSION = app;
+			};
+			name = "Debug - Production";
+		};
+		180BB5DC191D206C00E12995 /* Debug - Production */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Peer Flight.app/Peer Flight";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "travelcompanion/travelcompanion-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "travelcompanionTests/travelcompanionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = "Debug - Production";
+		};
+		180BB5DD191D21CD00E12995 /* Release - Dev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"ENV_TYPE=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release - Dev";
+		};
+		180BB5DE191D21CD00E12995 /* Release - Dev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "travelcompanion/travelcompanion-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				INFOPLIST_FILE = "travelcompanion/travelcompanion-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MOMC_NO_INVERSE_RELATIONSHIP_WARNINGS = YES;
+				PRODUCT_NAME = "Peer Flight";
+				WRAPPER_EXTENSION = app;
+			};
+			name = "Release - Dev";
+		};
+		180BB5DF191D21CD00E12995 /* Release - Dev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Peer Flight.app/Peer Flight";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "travelcompanion/travelcompanion-Prefix.pch";
+				INFOPLIST_FILE = "travelcompanionTests/travelcompanionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = "Release - Dev";
+		};
+		180BB5E3191D21DA00E12995 /* Release - Staging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"ENV_TYPE=2",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release - Staging";
+		};
+		180BB5E4191D21DA00E12995 /* Release - Staging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "travelcompanion/travelcompanion-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				INFOPLIST_FILE = "travelcompanion/travelcompanion-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MOMC_NO_INVERSE_RELATIONSHIP_WARNINGS = YES;
+				PRODUCT_NAME = "Peer Flight";
+				WRAPPER_EXTENSION = app;
+			};
+			name = "Release - Staging";
+		};
+		180BB5E5191D21DA00E12995 /* Release - Staging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Peer Flight.app/Peer Flight";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "travelcompanion/travelcompanion-Prefix.pch";
+				INFOPLIST_FILE = "travelcompanionTests/travelcompanionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = "Release - Staging";
+		};
+		180BB5E6191D21E200E12995 /* Release - Production */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "ENV_TYPE=3";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release - Production";
+		};
+		180BB5E7191D21E200E12995 /* Release - Production */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "travelcompanion/travelcompanion-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				INFOPLIST_FILE = "travelcompanion/travelcompanion-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MOMC_NO_INVERSE_RELATIONSHIP_WARNINGS = YES;
+				PRODUCT_NAME = "Peer Flight";
+				WRAPPER_EXTENSION = app;
+			};
+			name = "Release - Production";
+		};
+		180BB5E8191D21E200E12995 /* Release - Production */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Peer Flight.app/Peer Flight";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "travelcompanion/travelcompanion-Prefix.pch";
+				INFOPLIST_FILE = "travelcompanionTests/travelcompanionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = "Release - Production";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18BCC9AE18D39D4700241C54 /* Build configuration list for PBXProject "travelcompanion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180BB5C5191D1BB700E12995 /* Debug - Local */,
+				180BB5D4191D204200E12995 /* Debug - Dev */,
+				180BB5D7191D206600E12995 /* Debug - Staging */,
+				180BB5DA191D206C00E12995 /* Debug - Production */,
+				180BB5BC191D178800E12995 /* Release - Local */,
+				180BB5DD191D21CD00E12995 /* Release - Dev */,
+				180BB5E3191D21DA00E12995 /* Release - Staging */,
+				180BB5E6191D21E200E12995 /* Release - Production */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Debug - Local";
+		};
+		18BCC9E518D39D4800241C54 /* Build configuration list for PBXNativeTarget "travelcompanion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180BB5C6191D1BB700E12995 /* Debug - Local */,
+				180BB5D5191D204200E12995 /* Debug - Dev */,
+				180BB5D8191D206600E12995 /* Debug - Staging */,
+				180BB5DB191D206C00E12995 /* Debug - Production */,
+				180BB5BD191D178800E12995 /* Release - Local */,
+				180BB5DE191D21CD00E12995 /* Release - Dev */,
+				180BB5E4191D21DA00E12995 /* Release - Staging */,
+				180BB5E7191D21E200E12995 /* Release - Production */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Debug - Local";
+		};
+		18BCC9E818D39D4800241C54 /* Build configuration list for PBXNativeTarget "travelcompanionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180BB5C7191D1BB700E12995 /* Debug - Local */,
+				180BB5D6191D204200E12995 /* Debug - Dev */,
+				180BB5D9191D206600E12995 /* Debug - Staging */,
+				180BB5DC191D206C00E12995 /* Debug - Production */,
+				180BB5BE191D178800E12995 /* Release - Local */,
+				180BB5DF191D21CD00E12995 /* Release - Dev */,
+				180BB5E5191D21DA00E12995 /* Release - Staging */,
+				180BB5E8191D21E200E12995 /* Release - Production */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Debug - Local";
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		183A9D5E19076E3500749DAA /* TravelCompanionNew.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				183A9D5F19076E3500749DAA /* TravelCompanionNew.xcdatamodel */,
+			);
+			currentVersion = 183A9D5F19076E3500749DAA /* TravelCompanionNew.xcdatamodel */;
+			path = TravelCompanionNew.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 18BCC9AB18D39D4700241C54 /* Project object */;
+}

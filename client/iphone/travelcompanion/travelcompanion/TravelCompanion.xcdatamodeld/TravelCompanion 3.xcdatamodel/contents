@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5063" systemVersion="12F45" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="iOS 7.0">
+    <entity name="Airports" representedClassName="Airports" syncable="YES">
+        <attribute name="active" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="city" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="country" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="countrylong" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="created_at" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="fname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="iata" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="icao" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lat" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="lon" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="state" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updated_at" optional="YES" attributeType="Date" syncable="YES"/>
+    </entity>
+    <entity name="CompanionProfiles" representedClassName="CompanionProfiles" syncable="YES">
+        <attribute name="createdAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="objectId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="prefChildFlyer" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="prefDisabledFlyer" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="prefFirstTimeFlyer" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="prefMilitaryFlyer" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="prefSeniorFlyer" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="profileAge" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="profileEthnicity" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="profileLanguage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="profileLocation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="profileName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="profileSex" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="syncStatus" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="ctrips" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Trips" inverseName="profile" inverseEntity="Trips" syncable="YES"/>
+        <relationship name="person" maxCount="1" deletionRule="Nullify" destinationEntity="Person" inverseName="cprofiles" inverseEntity="Person" syncable="YES"/>
+    </entity>
+    <entity name="Messages" representedClassName="Messages" syncable="YES">
+        <attribute name="createdAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="msgBody" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="msgSeen" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="msgTitle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="objectId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="syncStatus" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="owner" maxCount="1" deletionRule="Nullify" destinationEntity="Person" inverseName="sentMessages" inverseEntity="Person" syncable="YES"/>
+        <relationship name="receiver" maxCount="1" deletionRule="Nullify" destinationEntity="Person" inverseName="receivedMessages" inverseEntity="Person" syncable="YES"/>
+    </entity>
+    <entity name="Person" representedClassName="Person" syncable="YES">
+        <attribute name="createdAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="syncStatus" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="username" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="cprofiles" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="CompanionProfiles" inverseName="person" inverseEntity="CompanionProfiles" syncable="YES"/>
+        <relationship name="photos" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Photos" inverseName="person" inverseEntity="Photos" syncable="YES"/>
+        <relationship name="receivedMessages" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Messages" inverseName="receiver" inverseEntity="Messages" syncable="YES"/>
+        <relationship name="sentMessages" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Messages" inverseName="owner" inverseEntity="Messages" syncable="YES"/>
+        <relationship name="trips" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Trips" inverseName="person" inverseEntity="Trips" syncable="YES"/>
+        <relationship name="vprofiles" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Person" syncable="YES"/>
+        <relationship name="wvprofiles" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Person" syncable="YES"/>
+    </entity>
+    <entity name="Photos" representedClassName="Photos" syncable="YES">
+        <attribute name="createdAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="objectId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="syncStatus" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="person" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Person" inverseName="photos" inverseEntity="Person" syncable="YES"/>
+    </entity>
+    <entity name="Trips" representedClassName="Trips" syncable="YES">
+        <attribute name="createdAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="from" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="objectId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="syncStatus" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="to" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="person" maxCount="1" deletionRule="Nullify" destinationEntity="Person" inverseName="trips" inverseEntity="Person" syncable="YES"/>
+        <relationship name="profile" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CompanionProfiles" inverseName="ctrips" inverseEntity="CompanionProfiles" syncable="YES"/>
+    </entity>
+    <configuration name="Dynamic">
+        <memberEntity name="Person"/>
+        <memberEntity name="Photos"/>
+        <memberEntity name="Trips"/>
+        <memberEntity name="Messages"/>
+        <memberEntity name="CompanionProfiles"/>
+    </configuration>
+    <configuration name="Static">
+        <memberEntity name="Airports"/>
+    </configuration>
+    <elements>
+        <element name="Airports" positionX="-281" positionY="-309" width="128" height="30"/>
+        <element name="CompanionProfiles" positionX="43" positionY="-720" width="128" height="298"/>
+        <element name="Messages" positionX="-360" positionY="-576" width="128" height="178"/>
+        <element name="Person" positionX="-162" positionY="-589" width="128" height="238"/>
+        <element name="Photos" positionX="-180" positionY="-799" width="128" height="133"/>
+        <element name="Trips" positionX="34" positionY="-295" width="128" height="178"/>
+    </elements>
+</model>

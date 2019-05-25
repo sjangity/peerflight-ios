@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>App Constants</key>
+	<dict>
+		<key>age</key>
+		<array>
+			<string>(18-35) young adult</string>
+			<string>(36-55) middle aged adult</string>
+			<string>(56+) older adult</string>
+		</array>
+		<key>ethnicity</key>
+		<array>
+			<string>African</string>
+			<string>Asian</string>
+			<string>Asian Indian</string>
+			<string>Caucasian</string>
+			<string>European</string>
+			<string>Hispanic</string>
+			<string>Middle Eastern</string>
+			<string>Other</string>
+		</array>
+		<key>language</key>
+		<array>
+			<string>Arabic</string>
+			<string>Azerbaijani</string>
+			<string>Awadhi</string>
+			<string>Bengali</string>
+			<string>Bhojpuri</string>
+			<string>Burmese</string>
+			<string>Chinese</string>
+			<string>Dutch</string>
+			<string>English</string>
+			<string>French</string>
+			<string>German</string>
+			<string>Gujarati</string>
+			<string>Hausa</string>
+			<string>Hindi</string>
+			<string>Italian</string>
+			<string>Japan</string>
+			<string>Kannada</string>
+			<string>Korean</string>
+			<string>Malayalam</string>
+			<string>Mandarin</string>
+			<string>Marathi</string>
+			<string>Oriya</string>
+			<string>Punjabi</string>
+			<string>Persian</string>
+			<string>Polish</string>
+			<string>Portuguese</string>
+			<string>Romanian</string>
+			<string>Russian</string>
+			<string>Sebo-Croatian</string>
+			<string>Sindhi</string>
+			<string>Spanish</string>
+			<string>Sunda</string>
+			<string>Telugu</string>
+			<string>Thai</string>
+			<string>Turkish</string>
+			<string>Ukrainian</string>
+			<string>Urdu</string>
+			<string>Vietnamese</string>
+			<string>Yoruba</string>
+		</array>
+		<key>location</key>
+		<array>
+			<string>Africa</string>
+			<string>Antarctica</string>
+			<string>Australia</string>
+			<string>Asia</string>
+			<string>Europe</string>
+			<string>North America</string>
+			<string>South America</string>
+		</array>
+		<key>sex</key>
+		<array>
+			<string>Male</string>
+			<string>Female</string>
+		</array>
+	</dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.peerflight.PeerFlight</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>7.0</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSLocationUsageDescription</key>
+	<string>Discover Local Travellers Near You.</string>
+	<key>UIMainStoryboardFile</key>
+	<string>MainStoryboard_iPhone</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UIStatusBarHidden</key>
+	<true/>
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleDefault</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+	</array>
+</dict>
+</plist>
