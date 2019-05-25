@@ -18,6 +18,12 @@ In hindsight, I think peerflight was drawn from the heavy painpoints in my days 
 
 > Client-server data sync
 
+> View layout
+
+> Core Data object graph management
+
+> Block-based network communication
+
 ### Questions / Feedback
 
 Feel free to reach out to me at sandeep @ sandeepjangity.co
